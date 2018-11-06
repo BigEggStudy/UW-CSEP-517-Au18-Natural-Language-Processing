@@ -1,0 +1,219 @@
+============= Unigram =============
+Building Unigram Language Model with Unknown Threshold as 0
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 1106.3368897653215
+Compute the Preplexity of Unigram Language Model based on Dev Data
+33% (1930) of Zero Prob Sentences, Perplexity on Other Sentences is 6404.901168516995
+Compute the Preplexity of Unigram Language Model based on Test Data
+32% (1850) of Zero Prob Sentences, Perplexity on Other Sentences is 6473.146772965761
+Building Unigram Language Model with Unknown Threshold as 1
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 868.0996268017665
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 765.9038773483167
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 769.3703937584214
+Building Unigram Language Model with Unknown Threshold as 3
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 646.7453125889049
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 590.5338247523919
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 599.0311233346804
+Building Unigram Language Model with Unknown Threshold as 5
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 528.895573512096
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 491.96234212870763
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 499.18176494716835
+Building Unigram Language Model with Unknown Threshold as 10
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 377.3296082716493
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 361.5234386846251
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 365.086440377176
+Building Unigram Language Model with Unknown Threshold as 20
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 242.7063677671068
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 236.62794866073318
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 240.77923624010546
+Building Unigram Language Model with Unknown Threshold as 30
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 179.73555075662932
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 175.4596988556913
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 179.38946336071587
+Building Unigram Language Model with Unknown Threshold as 50
+Validate the Language Model
+Building Unigram Language Model SUCCESS
+Compute the Preplexity of Unigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 113.65873320425975
+Compute the Preplexity of Unigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 111.59543878891174
+Compute the Preplexity of Unigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 113.70675745427882
+============= Bigram =============
+Building Bigram Language Model with Unknown Threshold as 0
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 44.03936719419109
+Compute the Preplexity of Bigram Language Model based on Dev Data
+94% (5450) of Zero Prob Sentences, Perplexity on Other Sentences is 1051848764911.702
+Compute the Preplexity of Bigram Language Model based on Test Data
+93% (5351) of Zero Prob Sentences, Perplexity on Other Sentences is 33219192266.874992
+Building Bigram Language Model with Unknown Threshold as 1
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 45.39041203517547
+Compute the Preplexity of Bigram Language Model based on Dev Data
+92% (5326) of Zero Prob Sentences, Perplexity on Other Sentences is 23042616306.689293
+Compute the Preplexity of Bigram Language Model based on Test Data
+91% (5197) of Zero Prob Sentences, Perplexity on Other Sentences is 302000568.55259275
+Building Bigram Language Model with Unknown Threshold as 3
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 44.705827588282304
+Compute the Preplexity of Bigram Language Model based on Dev Data
+90% (5225) of Zero Prob Sentences, Perplexity on Other Sentences is 1253193042.4787478
+Compute the Preplexity of Bigram Language Model based on Test Data
+89% (5086) of Zero Prob Sentences, Perplexity on Other Sentences is 28909914.55285633
+Building Bigram Language Model with Unknown Threshold as 5
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 43.350238878145525
+Compute the Preplexity of Bigram Language Model based on Dev Data
+89% (5123) of Zero Prob Sentences, Perplexity on Other Sentences is 60404856.22544316
+Compute the Preplexity of Bigram Language Model based on Test Data
+87% (4965) of Zero Prob Sentences, Perplexity on Other Sentences is 3421153.2594130277
+Building Bigram Language Model with Unknown Threshold as 10
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 40.047887752895
+Compute the Preplexity of Bigram Language Model based on Dev Data
+85% (4897) of Zero Prob Sentences, Perplexity on Other Sentences is 1024662.0059977407
+Compute the Preplexity of Bigram Language Model based on Test Data
+83% (4745) of Zero Prob Sentences, Perplexity on Other Sentences is 177388.18063534438
+Building Bigram Language Model with Unknown Threshold as 20
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 34.43782784057918
+Compute the Preplexity of Bigram Language Model based on Dev Data
+77% (4438) of Zero Prob Sentences, Perplexity on Other Sentences is 12829.447260171612
+Compute the Preplexity of Bigram Language Model based on Test Data
+75% (4324) of Zero Prob Sentences, Perplexity on Other Sentences is 8906.52023828549
+Building Bigram Language Model with Unknown Threshold as 30
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 30.351503818587588
+Compute the Preplexity of Bigram Language Model based on Dev Data
+70% (4069) of Zero Prob Sentences, Perplexity on Other Sentences is 1872.4156422818105
+Compute the Preplexity of Bigram Language Model based on Test Data
+69% (3975) of Zero Prob Sentences, Perplexity on Other Sentences is 1787.411712527488
+Building Bigram Language Model with Unknown Threshold as 50
+Validate the Bigram Language Model
+Building Bigram Language Model SUCCESS
+Compute the Preplexity of Bigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 24.264341115298453
+Compute the Preplexity of Bigram Language Model based on Dev Data
+58% (3355) of Zero Prob Sentences, Perplexity on Other Sentences is 232.50134898880506
+Compute the Preplexity of Bigram Language Model based on Test Data
+58% (3297) of Zero Prob Sentences, Perplexity on Other Sentences is 239.37598023657702
+============= Trigram =============
+Building Trigram Language Model with Unknown Threshold as 0
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 4.458884137697516
+Compute the Preplexity of Trigram Language Model based on Dev Data
+98% (5651) of Zero Prob Sentences, Perplexity on Other Sentences is 6675263113237140.0
+Compute the Preplexity of Trigram Language Model based on Test Data
+98% (5618) of Zero Prob Sentences, Perplexity on Other Sentences is 1.2293498923420723e+18
+Building Trigram Language Model with Unknown Threshold as 1
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 4.846001635444063
+Compute the Preplexity of Trigram Language Model based on Dev Data
+97% (5610) of Zero Prob Sentences, Perplexity on Other Sentences is 20037563167434.203
+Compute the Preplexity of Trigram Language Model based on Test Data
+97% (5569) of Zero Prob Sentences, Perplexity on Other Sentences is 27501106372112.61
+Building Trigram Language Model with Unknown Threshold as 3
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 5.374490381542099
+Compute the Preplexity of Trigram Language Model based on Dev Data
+96% (5578) of Zero Prob Sentences, Perplexity on Other Sentences is 296955613133.07043
+Compute the Preplexity of Trigram Language Model based on Test Data
+96% (5527) of Zero Prob Sentences, Perplexity on Other Sentences is 76898089303.67137
+Building Trigram Language Model with Unknown Threshold as 5
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 5.750579829865626
+Compute the Preplexity of Trigram Language Model based on Dev Data
+96% (5554) of Zero Prob Sentences, Perplexity on Other Sentences is 38929357752.57451
+Compute the Preplexity of Trigram Language Model based on Test Data
+96% (5491) of Zero Prob Sentences, Perplexity on Other Sentences is 3085444711.732462
+Building Trigram Language Model with Unknown Threshold as 10
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 6.3890856448896605
+Compute the Preplexity of Trigram Language Model based on Dev Data
+95% (5503) of Zero Prob Sentences, Perplexity on Other Sentences is 820296229.7591783
+Compute the Preplexity of Trigram Language Model based on Test Data
+95% (5451) of Zero Prob Sentences, Perplexity on Other Sentences is 285962043.78455216
+Building Trigram Language Model with Unknown Threshold as 20
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.120787631993202
+Compute the Preplexity of Trigram Language Model based on Dev Data
+93% (5390) of Zero Prob Sentences, Perplexity on Other Sentences is 5993651.209392379
+Compute the Preplexity of Trigram Language Model based on Test Data
+93% (5335) of Zero Prob Sentences, Perplexity on Other Sentences is 2033587.2505674914
+Building Trigram Language Model with Unknown Threshold as 30
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.509314820190879
+Compute the Preplexity of Trigram Language Model based on Dev Data
+91% (5277) of Zero Prob Sentences, Perplexity on Other Sentences is 255608.96987348923
+Compute the Preplexity of Trigram Language Model based on Test Data
+91% (5222) of Zero Prob Sentences, Perplexity on Other Sentences is 151626.38597159155
+Building Trigram Language Model with Unknown Threshold as 50
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.8035154602209715
+Compute the Preplexity of Trigram Language Model based on Dev Data
+87% (5039) of Zero Prob Sentences, Perplexity on Other Sentences is 7569.008144982552
+Compute the Preplexity of Trigram Language Model based on Test Data
+87% (4971) of Zero Prob Sentences, Perplexity on Other Sentences is 4893.159799534967
