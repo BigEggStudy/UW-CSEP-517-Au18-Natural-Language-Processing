@@ -1,0 +1,372 @@
+============= Add-K Smoothing =============
+Building Trigram Language Model with Unknown Threshold as 0, and k as 0.000010
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.33118183785949
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 11871.327355527459
+Building Trigram Language Model with Unknown Threshold as 0, and k as 0.000100
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 32.82602346218209
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10102.082803599593
+Building Trigram Language Model with Unknown Threshold as 0, and k as 0.001000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 162.12932257368905
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 12355.41290632031
+Building Trigram Language Model with Unknown Threshold as 0, and k as 0.010000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 1024.5169565097208
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 19168.760374469774
+Building Trigram Language Model with Unknown Threshold as 0, and k as 0.100000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7063.09293906585
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 33802.68437031255
+Building Trigram Language Model with Unknown Threshold as 0, and k as 1.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 36930.22284338213
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 60518.67670101694
+Building Trigram Language Model with Unknown Threshold as 0, and k as 10.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 83963.73769523272
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 91313.29104713412
+Building Trigram Language Model with Unknown Threshold as 1, and k as 0.000010
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.413803853495091
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7307.632247386767
+Building Trigram Language Model with Unknown Threshold as 1, and k as 0.000100
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 30.42986383804492
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 6083.900158311981
+Building Trigram Language Model with Unknown Threshold as 1, and k as 0.001000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 140.9743320277401
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7513.550032457048
+Building Trigram Language Model with Unknown Threshold as 1, and k as 0.010000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 860.7711148032048
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 12313.36979760068
+Building Trigram Language Model with Unknown Threshold as 1, and k as 0.100000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 5880.8213271364675
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 23784.263716507878
+Building Trigram Language Model with Unknown Threshold as 1, and k as 1.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 31076.3303577737
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 46902.61272164054
+Building Trigram Language Model with Unknown Threshold as 1, and k as 10.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 72991.7753359356
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 76599.79163589989
+Building Trigram Language Model with Unknown Threshold as 3, and k as 0.000010
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.588594851780778
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 4814.841003920662
+Building Trigram Language Model with Unknown Threshold as 3, and k as 0.000100
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 27.66745010358673
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 3942.339007158561
+Building Trigram Language Model with Unknown Threshold as 3, and k as 0.001000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 116.6120145210288
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 4860.336200879518
+Building Trigram Language Model with Unknown Threshold as 3, and k as 0.010000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 667.8109082085688
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 8139.415941495202
+Building Trigram Language Model with Unknown Threshold as 3, and k as 0.100000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 4455.082551307402
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 16643.59658209025
+Building Trigram Language Model with Unknown Threshold as 3, and k as 1.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 23883.00721738793
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 35383.49451025967
+Building Trigram Language Model with Unknown Threshold as 3, and k as 10.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 59056.850171370505
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 61871.44532748954
+Building Trigram Language Model with Unknown Threshold as 5, and k as 0.000010
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.714212407149077
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 3480.9970932179067
+Building Trigram Language Model with Unknown Threshold as 5, and k as 0.000100
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 25.8253198331892
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 2823.3361375068507
+Building Trigram Language Model with Unknown Threshold as 5, and k as 0.001000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 101.28944969853185
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 3478.7413212237707
+Building Trigram Language Model with Unknown Threshold as 5, and k as 0.010000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 550.227509057196
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 5915.296725827713
+Building Trigram Language Model with Unknown Threshold as 5, and k as 0.100000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 3582.3714165565893
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 12579.153647246796
+Building Trigram Language Model with Unknown Threshold as 5, and k as 1.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 19385.338332596377
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 28313.14289374584
+Building Trigram Language Model with Unknown Threshold as 5, and k as 10.000000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 49912.687919775475
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 52272.39885511188
+============= Linear Interpolation Smoothing =============
+Building Trigram Language Model with Unknown Threshold as 0, and lambda as 0.500000, 0.250000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.340572351567998
+Compute the Preplexity of Trigram Language Model based on Dev Data
+33% (1930) of Zero Prob Sentences, Perplexity on Other Sentences is 478.1748673471749
+Building Trigram Language Model with Unknown Threshold as 0, and lambda as 0.333000, 0.333000, 0.334000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 9.283475588315108
+Compute the Preplexity of Trigram Language Model based on Dev Data
+33% (1930) of Zero Prob Sentences, Perplexity on Other Sentences is 431.9843336162134
+Building Trigram Language Model with Unknown Threshold as 0, and lambda as 0.667000, 0.100000, 0.233000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 6.322278712423048
+Compute the Preplexity of Trigram Language Model based on Dev Data
+33% (1930) of Zero Prob Sentences, Perplexity on Other Sentences is 609.9092712326312
+Building Trigram Language Model with Unknown Threshold as 0, and lambda as 0.750000, 0.100000, 0.150000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 5.7507164138202675
+Compute the Preplexity of Trigram Language Model based on Dev Data
+33% (1930) of Zero Prob Sentences, Perplexity on Other Sentences is 682.2714979038224
+Building Trigram Language Model with Unknown Threshold as 0, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.053608652639626
+Compute the Preplexity of Trigram Language Model based on Dev Data
+33% (1930) of Zero Prob Sentences, Perplexity on Other Sentences is 409.28559051440163
+Building Trigram Language Model with Unknown Threshold as 1, and lambda as 0.500000, 0.250000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.946867824708229
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 123.09707384697158
+Building Trigram Language Model with Unknown Threshold as 1, and lambda as 0.333000, 0.333000, 0.334000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.02998391929425
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 113.32190543183181
+Building Trigram Language Model with Unknown Threshold as 1, and lambda as 0.667000, 0.100000, 0.233000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 6.8478938392286395
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 149.891718027716
+Building Trigram Language Model with Unknown Threshold as 1, and lambda as 0.750000, 0.100000, 0.150000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 6.2368628455977815
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 163.98701423957706
+Building Trigram Language Model with Unknown Threshold as 1, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.870673305233826
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 108.29696288230345
+Building Trigram Language Model with Unknown Threshold as 3, and lambda as 0.500000, 0.250000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 8.69187548178093
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 97.13068883386563
+Building Trigram Language Model with Unknown Threshold as 3, and lambda as 0.333000, 0.333000, 0.334000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 10.882084202907018
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 90.5149815114147
+Building Trigram Language Model with Unknown Threshold as 3, and lambda as 0.667000, 0.100000, 0.233000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.531671306815498
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 117.07048933745517
+Building Trigram Language Model with Unknown Threshold as 3, and lambda as 0.750000, 0.100000, 0.150000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 6.876394583575528
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 126.46730992342826
+Building Trigram Language Model with Unknown Threshold as 3, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 11.739378826514379
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 86.06227376392093
+Building Trigram Language Model with Unknown Threshold as 5, and lambda as 0.500000, 0.250000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 9.183065020425678
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 82.68873003065924
+Building Trigram Language Model with Unknown Threshold as 5, and lambda as 0.333000, 0.333000, 0.334000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 11.411504414491974
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 77.758528580817
+Building Trigram Language Model with Unknown Threshold as 5, and lambda as 0.667000, 0.100000, 0.233000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 8.00059939825555
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 98.71642401180884
+Building Trigram Language Model with Unknown Threshold as 5, and lambda as 0.750000, 0.100000, 0.150000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 7.3192871026869195
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 105.71123902475698
+Building Trigram Language Model with Unknown Threshold as 5, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Train Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 12.247924523325386
+Compute the Preplexity of Trigram Language Model based on Dev Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 73.76958586294327
+============= Add-K & Linear Interpolation Smoothing =============
+Building Trigram Language Model with Unknown Threshold as 1, k as 0.000010, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 72.52638137286591
+Building Trigram Language Model with Unknown Threshold as 3, k as 0.000010, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 59.55746946692976
+Building Trigram Language Model with Unknown Threshold as 5, k as 0.000010, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 51.64605716551561
+============= Add-K & Linear Interpolation Smoothing & Only Training Half Training Set =============
+Previously the Training Set Size is 45822
+Now the Training Set Size is 22911
+Building Trigram Language Model with Unknown Threshold as 1, k as 0.000010, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 179.06825523363943
+Building Trigram Language Model with Unknown Threshold as 3, k as 0.000010, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 128.42054742508398
+Building Trigram Language Model with Unknown Threshold as 5, k as 0.000010, and lambda as 0.250000, 0.500000, 0.250000
+Validate the Trigram Language Model
+Building Trigram Language Model SUCCESS
+Compute the Preplexity of Trigram Language Model based on Test Data
+0% (0) of Zero Prob Sentences, Perplexity on Other Sentences is 103.54895061008041
