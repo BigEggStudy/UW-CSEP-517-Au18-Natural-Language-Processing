@@ -1,0 +1,761 @@
+============= Trigram HMM with UNK and Add-K Smoothing =============
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 91.2341%, total tags are 73489, matched tags are 67047
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 91.2531%, total tags are 73489, matched tags are 67061
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 91.2599%, total tags are 73489, matched tags are 67066
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 91.2776%, total tags are 73489, matched tags are 67079
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 91.2735%, total tags are 73489, matched tags are 67076
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 91.1742%, total tags are 73489, matched tags are 67003
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 91.1905%, total tags are 73489, matched tags are 67015
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 91.2313%, total tags are 73489, matched tags are 67045
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 91.2558%, total tags are 73489, matched tags are 67063
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 91.2749%, total tags are 73489, matched tags are 67077
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 91.2626%, total tags are 73489, matched tags are 67068
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 91.0531%, total tags are 73489, matched tags are 66914
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 91.1470%, total tags are 73489, matched tags are 66983
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 91.1810%, total tags are 73489, matched tags are 67008
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 91.2205%, total tags are 73489, matched tags are 67037
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 91.2381%, total tags are 73489, matched tags are 67050
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 90.9483%, total tags are 73489, matched tags are 66837
+Building Trigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 89.0215%, total tags are 73489, matched tags are 65421
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.000100, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 89.9958%, total tags are 73489, matched tags are 66137
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.000100, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 90.0107%, total tags are 73489, matched tags are 66148
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.000100, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 90.0176%, total tags are 73489, matched tags are 66153
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.000100, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 90.0325%, total tags are 73489, matched tags are 66164
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.000100, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 90.0325%, total tags are 73489, matched tags are 66164
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.000100, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 89.9454%, total tags are 73489, matched tags are 66100
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.001000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 89.9604%, total tags are 73489, matched tags are 66111
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.001000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 89.9958%, total tags are 73489, matched tags are 66137
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.001000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 90.0162%, total tags are 73489, matched tags are 66152
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.001000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 90.0325%, total tags are 73489, matched tags are 66164
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.001000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 90.0312%, total tags are 73489, matched tags are 66163
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.001000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 89.9169%, total tags are 73489, matched tags are 66079
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.010000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 89.9196%, total tags are 73489, matched tags are 66081
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.010000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 89.9550%, total tags are 73489, matched tags are 66107
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.010000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 89.9917%, total tags are 73489, matched tags are 66134
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.010000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 90.0039%, total tags are 73489, matched tags are 66143
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.010000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 89.8788%, total tags are 73489, matched tags are 66051
+Building Trigram HMM with Unknown Threshold as 3, and k (for emission) as 0.010000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 88.7548%, total tags are 73489, matched tags are 65225
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.000100, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 89.0650%, total tags are 73489, matched tags are 65453
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.000100, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 89.0800%, total tags are 73489, matched tags are 65464
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.000100, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 89.0868%, total tags are 73489, matched tags are 65469
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.000100, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 89.1031%, total tags are 73489, matched tags are 65481
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.000100, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 89.1086%, total tags are 73489, matched tags are 65485
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.000100, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 89.0160%, total tags are 73489, matched tags are 65417
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.001000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 89.0324%, total tags are 73489, matched tags are 65429
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.001000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 89.0650%, total tags are 73489, matched tags are 65453
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.001000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 89.0854%, total tags are 73489, matched tags are 65468
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.001000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 89.1031%, total tags are 73489, matched tags are 65481
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.001000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 89.1072%, total tags are 73489, matched tags are 65484
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.001000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 89.0024%, total tags are 73489, matched tags are 65407
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.010000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 88.9915%, total tags are 73489, matched tags are 65399
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.010000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 89.0283%, total tags are 73489, matched tags are 65426
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.010000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 89.0623%, total tags are 73489, matched tags are 65451
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.010000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 89.0773%, total tags are 73489, matched tags are 65462
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.010000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 89.0011%, total tags are 73489, matched tags are 65406
+Building Trigram HMM with Unknown Threshold as 5, and k (for emission) as 0.010000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 88.2363%, total tags are 73489, matched tags are 64844
+When UNK Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, the accuracy is the best, use it for other testing
+============= Trigram HMM with UNK and Linear Interpolation Smoothing =============
+Building Trigram HMM with Unknown Threshold as 1, and lambda as 0.500000, 0.250000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.7006%, total tags are 73489, matched tags are 66655
+Building Trigram HMM with Unknown Threshold as 1, and lambda as 0.333000, 0.333000, 0.334000
+Predict the Dev Dataset
+Accuracy is 91.1238%, total tags are 73489, matched tags are 66966
+Building Trigram HMM with Unknown Threshold as 1, and lambda as 0.667000, 0.100000, 0.233000
+Predict the Dev Dataset
+Accuracy is 90.5006%, total tags are 73489, matched tags are 66508
+Building Trigram HMM with Unknown Threshold as 1, and lambda as 0.750000, 0.100000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.2761%, total tags are 73489, matched tags are 66343
+Building Trigram HMM with Unknown Threshold as 1, and lambda as 0.250000, 0.500000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.2885%, total tags are 73489, matched tags are 67087
+When lambda as 0.250000, 0.500000, 0.250000, the accuracy is the best, use it for other testing
+============= Trigram HMM with UNK, Add-K and Linear Interpolation Smoothing =============
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.050000, 0.900000
+Predict the Dev Dataset
+Accuracy is 91.3810%, total tags are 73489, matched tags are 67155
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.100000, 0.850000
+Predict the Dev Dataset
+Accuracy is 91.3198%, total tags are 73489, matched tags are 67110
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.150000, 0.800000
+Predict the Dev Dataset
+Accuracy is 91.3225%, total tags are 73489, matched tags are 67112
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.200000, 0.750000
+Predict the Dev Dataset
+Accuracy is 91.3579%, total tags are 73489, matched tags are 67138
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.250000, 0.700000
+Predict the Dev Dataset
+Accuracy is 91.3715%, total tags are 73489, matched tags are 67148
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.300000, 0.650000
+Predict the Dev Dataset
+Accuracy is 91.3878%, total tags are 73489, matched tags are 67160
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.350000, 0.600000
+Predict the Dev Dataset
+Accuracy is 91.3865%, total tags are 73489, matched tags are 67159
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.400000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.3783%, total tags are 73489, matched tags are 67153
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.450000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.3633%, total tags are 73489, matched tags are 67142
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.500000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.3334%, total tags are 73489, matched tags are 67120
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.550000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.3429%, total tags are 73489, matched tags are 67127
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.600000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.3647%, total tags are 73489, matched tags are 67143
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.650000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.3620%, total tags are 73489, matched tags are 67141
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.700000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.3593%, total tags are 73489, matched tags are 67139
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.750000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.3606%, total tags are 73489, matched tags are 67140
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.800000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.3620%, total tags are 73489, matched tags are 67141
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.850000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.3674%, total tags are 73489, matched tags are 67145
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.050000, 0.900000, 0.050000
+Predict the Dev Dataset
+Accuracy is 91.3688%, total tags are 73489, matched tags are 67146
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.050000, 0.850000
+Predict the Dev Dataset
+Accuracy is 91.4082%, total tags are 73489, matched tags are 67175
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.100000, 0.800000
+Predict the Dev Dataset
+Accuracy is 91.4273%, total tags are 73489, matched tags are 67189
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.150000, 0.750000
+Predict the Dev Dataset
+Accuracy is 91.4123%, total tags are 73489, matched tags are 67178
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.200000, 0.700000
+Predict the Dev Dataset
+Accuracy is 91.4423%, total tags are 73489, matched tags are 67200
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.250000, 0.650000
+Predict the Dev Dataset
+Accuracy is 91.3647%, total tags are 73489, matched tags are 67143
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.300000, 0.600000
+Predict the Dev Dataset
+Accuracy is 91.3620%, total tags are 73489, matched tags are 67141
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.350000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.3674%, total tags are 73489, matched tags are 67145
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.400000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.3633%, total tags are 73489, matched tags are 67142
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.450000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.3484%, total tags are 73489, matched tags are 67131
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.500000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.3524%, total tags are 73489, matched tags are 67134
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.550000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.3484%, total tags are 73489, matched tags are 67131
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.600000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.3484%, total tags are 73489, matched tags are 67131
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.650000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.3484%, total tags are 73489, matched tags are 67131
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.700000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.3484%, total tags are 73489, matched tags are 67131
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.750000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.3524%, total tags are 73489, matched tags are 67134
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.800000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.3688%, total tags are 73489, matched tags are 67146
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.850000, 0.050000
+Predict the Dev Dataset
+Accuracy is 91.3633%, total tags are 73489, matched tags are 67142
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.050000, 0.800000
+Predict the Dev Dataset
+Accuracy is 91.4164%, total tags are 73489, matched tags are 67181
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.100000, 0.750000
+Predict the Dev Dataset
+Accuracy is 91.4191%, total tags are 73489, matched tags are 67183
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.150000, 0.700000
+Predict the Dev Dataset
+Accuracy is 91.4150%, total tags are 73489, matched tags are 67180
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.200000, 0.650000
+Predict the Dev Dataset
+Accuracy is 91.4110%, total tags are 73489, matched tags are 67177
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.250000, 0.600000
+Predict the Dev Dataset
+Accuracy is 91.4232%, total tags are 73489, matched tags are 67186
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.300000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.4082%, total tags are 73489, matched tags are 67175
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.350000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.3865%, total tags are 73489, matched tags are 67159
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.400000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.2504%, total tags are 73489, matched tags are 67059
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.450000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.2422%, total tags are 73489, matched tags are 67053
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.500000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.2586%, total tags are 73489, matched tags are 67065
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.550000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.2762%, total tags are 73489, matched tags are 67078
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.600000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.2885%, total tags are 73489, matched tags are 67087
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.650000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.2776%, total tags are 73489, matched tags are 67079
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.700000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.2749%, total tags are 73489, matched tags are 67077
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.750000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.2504%, total tags are 73489, matched tags are 67059
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.150000, 0.800000, 0.050000
+Predict the Dev Dataset
+Accuracy is 91.2504%, total tags are 73489, matched tags are 67059
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.050000, 0.750000
+Predict the Dev Dataset
+Accuracy is 91.3266%, total tags are 73489, matched tags are 67115
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.100000, 0.700000
+Predict the Dev Dataset
+Accuracy is 91.3266%, total tags are 73489, matched tags are 67115
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.150000, 0.650000
+Predict the Dev Dataset
+Accuracy is 91.3348%, total tags are 73489, matched tags are 67121
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.200000, 0.600000
+Predict the Dev Dataset
+Accuracy is 91.3320%, total tags are 73489, matched tags are 67119
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.250000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.3348%, total tags are 73489, matched tags are 67121
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.300000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.3375%, total tags are 73489, matched tags are 67123
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.350000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.3443%, total tags are 73489, matched tags are 67128
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.400000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.3089%, total tags are 73489, matched tags are 67102
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.450000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.3157%, total tags are 73489, matched tags are 67107
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.500000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.3266%, total tags are 73489, matched tags are 67115
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.550000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.3225%, total tags are 73489, matched tags are 67112
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.600000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.2354%, total tags are 73489, matched tags are 67048
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.650000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.2286%, total tags are 73489, matched tags are 67043
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.700000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.2109%, total tags are 73489, matched tags are 67030
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.200000, 0.750000, 0.050000
+Predict the Dev Dataset
+Accuracy is 91.2028%, total tags are 73489, matched tags are 67024
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.050000, 0.700000
+Predict the Dev Dataset
+Accuracy is 91.2218%, total tags are 73489, matched tags are 67038
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.100000, 0.650000
+Predict the Dev Dataset
+Accuracy is 91.2545%, total tags are 73489, matched tags are 67062
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.150000, 0.600000
+Predict the Dev Dataset
+Accuracy is 91.2871%, total tags are 73489, matched tags are 67086
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.200000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.2749%, total tags are 73489, matched tags are 67077
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.250000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.2694%, total tags are 73489, matched tags are 67073
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.300000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.2830%, total tags are 73489, matched tags are 67083
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.350000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.2708%, total tags are 73489, matched tags are 67074
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.400000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.2667%, total tags are 73489, matched tags are 67071
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.450000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.2613%, total tags are 73489, matched tags are 67067
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.500000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.2817%, total tags are 73489, matched tags are 67082
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.550000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.2899%, total tags are 73489, matched tags are 67088
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.600000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.2926%, total tags are 73489, matched tags are 67090
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.650000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.2926%, total tags are 73489, matched tags are 67090
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.250000, 0.700000, 0.050000
+Predict the Dev Dataset
+Accuracy is 91.3130%, total tags are 73489, matched tags are 67105
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.050000, 0.650000
+Predict the Dev Dataset
+Accuracy is 91.1810%, total tags are 73489, matched tags are 67008
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.100000, 0.600000
+Predict the Dev Dataset
+Accuracy is 91.1756%, total tags are 73489, matched tags are 67004
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.150000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.1796%, total tags are 73489, matched tags are 67007
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.200000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.2014%, total tags are 73489, matched tags are 67023
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.250000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.2177%, total tags are 73489, matched tags are 67035
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.300000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.1905%, total tags are 73489, matched tags are 67015
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.350000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.1497%, total tags are 73489, matched tags are 66985
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.400000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.1592%, total tags are 73489, matched tags are 66992
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.450000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.1905%, total tags are 73489, matched tags are 67015
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.500000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.1960%, total tags are 73489, matched tags are 67019
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.550000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.1987%, total tags are 73489, matched tags are 67021
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.600000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.1647%, total tags are 73489, matched tags are 66996
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.300000, 0.650000, 0.050000
+Predict the Dev Dataset
+Accuracy is 91.1715%, total tags are 73489, matched tags are 67001
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.050000, 0.600000
+Predict the Dev Dataset
+Accuracy is 90.9959%, total tags are 73489, matched tags are 66872
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.100000, 0.550000
+Predict the Dev Dataset
+Accuracy is 91.0340%, total tags are 73489, matched tags are 66900
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.150000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.0218%, total tags are 73489, matched tags are 66891
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.200000, 0.450000
+Predict the Dev Dataset
+Accuracy is 91.0408%, total tags are 73489, matched tags are 66905
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.250000, 0.400000
+Predict the Dev Dataset
+Accuracy is 91.0517%, total tags are 73489, matched tags are 66913
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.300000, 0.350000
+Predict the Dev Dataset
+Accuracy is 91.0041%, total tags are 73489, matched tags are 66878
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.350000, 0.300000
+Predict the Dev Dataset
+Accuracy is 91.0245%, total tags are 73489, matched tags are 66893
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.400000, 0.250000
+Predict the Dev Dataset
+Accuracy is 91.0204%, total tags are 73489, matched tags are 66890
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.450000, 0.200000
+Predict the Dev Dataset
+Accuracy is 91.0286%, total tags are 73489, matched tags are 66896
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.500000, 0.150000
+Predict the Dev Dataset
+Accuracy is 91.0368%, total tags are 73489, matched tags are 66902
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.550000, 0.100000
+Predict the Dev Dataset
+Accuracy is 91.0150%, total tags are 73489, matched tags are 66886
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.350000, 0.600000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.9810%, total tags are 73489, matched tags are 66861
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.050000, 0.550000
+Predict the Dev Dataset
+Accuracy is 90.8857%, total tags are 73489, matched tags are 66791
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.100000, 0.500000
+Predict the Dev Dataset
+Accuracy is 90.8326%, total tags are 73489, matched tags are 66752
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.150000, 0.450000
+Predict the Dev Dataset
+Accuracy is 90.8626%, total tags are 73489, matched tags are 66774
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.200000, 0.400000
+Predict the Dev Dataset
+Accuracy is 90.8313%, total tags are 73489, matched tags are 66751
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.250000, 0.350000
+Predict the Dev Dataset
+Accuracy is 90.8136%, total tags are 73489, matched tags are 66738
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.300000, 0.300000
+Predict the Dev Dataset
+Accuracy is 90.8272%, total tags are 73489, matched tags are 66748
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.350000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.8354%, total tags are 73489, matched tags are 66754
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.400000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.8408%, total tags are 73489, matched tags are 66758
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.450000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.8313%, total tags are 73489, matched tags are 66751
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.500000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.8340%, total tags are 73489, matched tags are 66753
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.400000, 0.550000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.7945%, total tags are 73489, matched tags are 66724
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.050000, 0.500000
+Predict the Dev Dataset
+Accuracy is 90.6802%, total tags are 73489, matched tags are 66640
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.100000, 0.450000
+Predict the Dev Dataset
+Accuracy is 90.6830%, total tags are 73489, matched tags are 66642
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.150000, 0.400000
+Predict the Dev Dataset
+Accuracy is 90.6884%, total tags are 73489, matched tags are 66646
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.200000, 0.350000
+Predict the Dev Dataset
+Accuracy is 90.6830%, total tags are 73489, matched tags are 66642
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.250000, 0.300000
+Predict the Dev Dataset
+Accuracy is 90.6884%, total tags are 73489, matched tags are 66646
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.300000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.6707%, total tags are 73489, matched tags are 66633
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.350000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.6952%, total tags are 73489, matched tags are 66651
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.400000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.6966%, total tags are 73489, matched tags are 66652
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.450000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.7020%, total tags are 73489, matched tags are 66656
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.450000, 0.500000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.7034%, total tags are 73489, matched tags are 66657
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.050000, 0.450000
+Predict the Dev Dataset
+Accuracy is 90.6489%, total tags are 73489, matched tags are 66617
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.100000, 0.400000
+Predict the Dev Dataset
+Accuracy is 90.6666%, total tags are 73489, matched tags are 66630
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.150000, 0.350000
+Predict the Dev Dataset
+Accuracy is 90.6625%, total tags are 73489, matched tags are 66627
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.200000, 0.300000
+Predict the Dev Dataset
+Accuracy is 90.6979%, total tags are 73489, matched tags are 66653
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.250000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.6925%, total tags are 73489, matched tags are 66649
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.300000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.6789%, total tags are 73489, matched tags are 66639
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.350000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.6775%, total tags are 73489, matched tags are 66638
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.400000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.6802%, total tags are 73489, matched tags are 66640
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.500000, 0.450000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.6639%, total tags are 73489, matched tags are 66628
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.050000, 0.400000
+Predict the Dev Dataset
+Accuracy is 90.6299%, total tags are 73489, matched tags are 66603
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.100000, 0.350000
+Predict the Dev Dataset
+Accuracy is 90.6285%, total tags are 73489, matched tags are 66602
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.150000, 0.300000
+Predict the Dev Dataset
+Accuracy is 90.6027%, total tags are 73489, matched tags are 66583
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.200000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.5891%, total tags are 73489, matched tags are 66573
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.250000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.6394%, total tags are 73489, matched tags are 66610
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.300000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.6340%, total tags are 73489, matched tags are 66606
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.350000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.6435%, total tags are 73489, matched tags are 66613
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.550000, 0.400000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.6326%, total tags are 73489, matched tags are 66605
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.050000, 0.350000
+Predict the Dev Dataset
+Accuracy is 90.5442%, total tags are 73489, matched tags are 66540
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.100000, 0.300000
+Predict the Dev Dataset
+Accuracy is 90.5414%, total tags are 73489, matched tags are 66538
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.150000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.5346%, total tags are 73489, matched tags are 66533
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.200000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.5632%, total tags are 73489, matched tags are 66554
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.250000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.5605%, total tags are 73489, matched tags are 66552
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.300000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.6299%, total tags are 73489, matched tags are 66603
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.600000, 0.350000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.6231%, total tags are 73489, matched tags are 66598
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.650000, 0.050000, 0.300000
+Predict the Dev Dataset
+Accuracy is 90.5033%, total tags are 73489, matched tags are 66510
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.650000, 0.100000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.4965%, total tags are 73489, matched tags are 66505
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.650000, 0.150000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.5074%, total tags are 73489, matched tags are 66513
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.650000, 0.200000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.5074%, total tags are 73489, matched tags are 66513
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.650000, 0.250000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.4897%, total tags are 73489, matched tags are 66500
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.650000, 0.300000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.4965%, total tags are 73489, matched tags are 66505
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.700000, 0.050000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.4217%, total tags are 73489, matched tags are 66450
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.700000, 0.100000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.4067%, total tags are 73489, matched tags are 66439
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.700000, 0.150000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.3523%, total tags are 73489, matched tags are 66399
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.700000, 0.200000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.3537%, total tags are 73489, matched tags are 66400
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.700000, 0.250000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.3673%, total tags are 73489, matched tags are 66410
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.750000, 0.050000, 0.200000
+Predict the Dev Dataset
+Accuracy is 90.2775%, total tags are 73489, matched tags are 66344
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.750000, 0.100000, 0.150000
+Predict the Dev Dataset
+Accuracy is 90.2707%, total tags are 73489, matched tags are 66339
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.750000, 0.150000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.3060%, total tags are 73489, matched tags are 66365
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.750000, 0.200000, 0.050000
+Predict the Dev Dataset
+Accuracy is 90.2951%, total tags are 73489, matched tags are 66357
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.800000, 0.050000, 0.150000
+Predict the Dev Dataset
+Accuracy is 89.9808%, total tags are 73489, matched tags are 66126
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.800000, 0.100000, 0.100000
+Predict the Dev Dataset
+Accuracy is 90.0039%, total tags are 73489, matched tags are 66143
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.800000, 0.150000, 0.050000
+Predict the Dev Dataset
+Accuracy is 89.9971%, total tags are 73489, matched tags are 66138
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.850000, 0.050000, 0.100000
+Predict the Dev Dataset
+Accuracy is 89.9141%, total tags are 73489, matched tags are 66077
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.850000, 0.100000, 0.050000
+Predict the Dev Dataset
+Accuracy is 89.9141%, total tags are 73489, matched tags are 66077
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.900000, 0.050000, 0.050000
+Predict the Dev Dataset
+Accuracy is 89.8148%, total tags are 73489, matched tags are 66004
+When lambda as 0.100000, 0.200000, 0.700000, the accuracy is the best, use it for other testing
+============= Trigram HMM with Best Parameters =============
+Building Trigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.100000, and lambda as 0.100000, 0.200000, 0.700000
+Predict the Dev Dataset
+Accuracy is 91.4423%, total tags are 73489, matched tags are 67200
+Predict the Test Dataset
+Accuracy is 91.5809%, total tags are 73523, matched tags are 67333
+============= Error analysis for Dev Dataset =============
+The confusion matrix:
+      |   ,   |   ~   |   A   |   ^   |   D   |   Y   |   O   |   V   |   L   |   Z   |   T   |   X   |   @   |   $   |   P   |   N   |   G   |   #   |   &   |   E   |   S   |   R   |   U   |   !
+----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+  ,   |  6860 |    72 |     2 |    41 |     0 |     0 |     0 |    16 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |    54 |    55 |     0 |     0 |     1 |     0 |     0 |     0 |     0
+  ~   |    73 |  4888 |     0 |    12 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |    11 |     0 |     0 |     0 |     0 |     0 |     0 |     0
+  A   |     0 |     0 |  3283 |   248 |     0 |     0 |     0 |    94 |     0 |     0 |     1 |     1 |     0 |     6 |     3 |   166 |     1 |     7 |     0 |     0 |     0 |    58 |     0 |    13
+  ^   |    24 |     0 |    38 |  3899 |     5 |     0 |     3 |    74 |     0 |     0 |     0 |     0 |     1 |     5 |     2 |   485 |    41 |   133 |     0 |     6 |     1 |     2 |    66 |    22
+  D   |     0 |     0 |     0 |     6 |  4041 |     0 |   150 |     2 |    10 |     0 |     0 |    10 |     0 |     0 |    37 |     3 |     1 |     0 |     1 |     0 |     0 |     4 |     0 |    26
+  Y   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0
+  O   |     0 |     0 |     1 |    19 |   143 |     0 |  4026 |     5 |     1 |     0 |     0 |     0 |     0 |     0 |    55 |     4 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     1
+  V   |     1 |    35 |    67 |   377 |     2 |     0 |     0 |  9295 |     1 |     0 |     0 |     0 |     0 |     3 |    28 |   319 |     7 |    13 |     0 |     3 |     0 |     5 |     0 |    11
+  L   |     0 |     0 |     0 |    14 |    10 |     0 |     0 |     4 |   950 |     1 |     0 |     0 |     0 |     0 |     0 |     7 |     1 |     0 |     0 |     0 |     0 |     0 |     0 |     2
+  Z   |     0 |     0 |     0 |    77 |     0 |     0 |     0 |     5 |     1 |    47 |     0 |     0 |     6 |     0 |     0 |    18 |     1 |     3 |     0 |     0 |     0 |     0 |     0 |     0
+  T   |     0 |     0 |     0 |     2 |     0 |     0 |     0 |     1 |     0 |     0 |   249 |     0 |     0 |     0 |    21 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |     0 |     0
+  X   |     0 |     0 |     4 |     0 |    26 |     0 |     0 |     1 |     0 |     0 |     0 |    11 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     7 |     0 |     0
+  @   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |  4314 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0
+  $   |     0 |     0 |     3 |   251 |     0 |     0 |     0 |    15 |     0 |     0 |     0 |     0 |     0 |   987 |     0 |    64 |     8 |    14 |     0 |     0 |     0 |     1 |     0 |     1
+  P   |     1 |     0 |     1 |    20 |     1 |     0 |     7 |    15 |     0 |     0 |    28 |     0 |    24 |    10 |  5741 |    18 |     2 |     0 |     0 |     0 |     0 |    75 |     0 |     0
+  N   |     7 |     1 |    64 |   906 |     0 |     0 |     1 |   296 |     0 |     2 |     1 |     0 |     1 |    12 |     3 |  8737 |    19 |    67 |     0 |     3 |     0 |    17 |     5 |    22
+  #   |     0 |     0 |     0 |    66 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |    10 |     1 |  1635 |     0 |     0 |     0 |     0 |     0 |     0
+  G   |    58 |     1 |     6 |   151 |     0 |     0 |     2 |    20 |     0 |     0 |     0 |     0 |     0 |     0 |     5 |    54 |   361 |     4 |     0 |     4 |     0 |     0 |     1 |     3
+  &   |     0 |     0 |     0 |     3 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |  1249 |     0 |     0 |     0 |     0 |     0
+  E   |     3 |     0 |     1 |    16 |     0 |     0 |     0 |     2 |     0 |     0 |     0 |     0 |     0 |     1 |     0 |     7 |     9 |     0 |     0 |   437 |     0 |     0 |     0 |     0
+  S   |     0 |     0 |     0 |     4 |     1 |     0 |     0 |     0 |     1 |     0 |     0 |     0 |     0 |     0 |     0 |    12 |     0 |     0 |     0 |     0 |    20 |     0 |     0 |     0
+  R   |     0 |     0 |   129 |    29 |    14 |     0 |     0 |    23 |     0 |     0 |    13 |     1 |     0 |     0 |    73 |    40 |     2 |     0 |     1 |     0 |     0 |  2714 |     0 |     2
+  U   |     0 |     0 |     0 |     2 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     1 |     0 |     0 |     0 |     0 |     0 |     0 |  2924 |     0
+  !   |     1 |     0 |     4 |    69 |     8 |     0 |     1 |    11 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     6 |     3 |     0 |     0 |     1 |     0 |     6 |     0 |   532
+Top 10 data contain most errors:
+['Shifts', 'in', 'consciousness', "hap'n", 'overnite', 'due2', '#socialmedia', 'Prob', ':', 'many', '2be', 'effected', 'are', 'silenced', 'bcuz', 'theyve', 'been', 'denial', 'far2long', '#theynotreadyRT', '@DrizzyNYC__', ':', 'This', 'Child', 'Plays', 'With', 'A', 'Strange', 'New', 'Friend', '.', 'When', 'I', 'Realized', 'What', 'It', 'Was', 'My', 'Jaw', 'Dropped', 'https://t.co/zW1MJwqIKe']
+['V', 'P', 'N', 'V', 'R', 'P', '#', 'R', ',', 'A', 'P', 'V', 'V', 'V', 'P', 'L', 'V', 'N', 'P', '#', '@', '~', 'D', 'N', 'V', 'P', 'D', 'A', 'A', 'N', ',', 'R', 'O', 'V', 'O', 'O', 'V', 'D', 'N', 'V', 'U']
+['^', 'P', '^', '^', '^', '^', '#', '^', ',', 'A', 'N', 'N', 'V', 'V', 'N', 'N', 'V', 'N', 'N', '#', '@', '~', 'O', 'V', 'N', 'P', 'D', 'A', 'A', 'N', ',', 'R', 'O', 'V', 'O', 'O', 'V', 'D', 'N', 'V', 'U']
+['7', 'Fuse', 'Lamps', '8V', '250mA', '+7', 'Bi-Pins', '8V', '40mA', 'KIT', 'STEREO', 'AM/FM', 'LIGHTS/', '2265', '2275', '2250', 'https://t.co/MMbcOhTog1', 'https://t.co/gmozwmlFYX']
+['$', 'N', 'N', '$', '$', '$', 'G', '$', '^', '^', '^', '^', '^', '$', '$', '$', 'U', 'U']
+['$', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'U', 'U']
+['RT', '@Tradeweb', ':', 'Italy', '10Y', 'benchmark', 'bond', 'mid-yield', ':', '1.27%', ';', 'Spread', 'v', '.', '10Y', 'German', 'bund', '116.70', ';', '+', '5.00', 'bps', 'from', 'prev', 'close', '#EUGV']
+['~', '@', '~', '^', '$', 'N', 'N', 'A', ',', '$', ',', 'V', '^', ',', '$', 'A', 'N', '$', ',', '&', '$', 'N', 'P', '^', 'A', 'N']
+['~', '@', '~', '^', '^', 'N', 'N', 'N', ',', '^', ',', 'V', 'P', ',', '^', '^', '^', '^', ',', '&', '^', '^', 'P', '^', 'A', '#']
+['Great', 'Deals', '#424', ':', 'https://t.co/qdmpdqR5mw', 'Samsung', 'Galaxy', 'Note', '4', 'IV', 'SM-N910C', '(', 'FACTORY', 'UNLOCKED', ')', '5.7', '"', 'QHD', '-', 'Pick', 'yo', '…', 'https://t.co/7HT9QkOgaI']
+['A', 'N', '$', ',', 'U', '^', 'N', 'N', 'P', 'P', 'G', ',', 'N', 'V', ',', '$', ',', '^', ',', 'V', 'O', ',', 'U']
+['A', 'N', '#', '~', 'U', '^', '^', '^', '$', '^', '^', ',', '^', '^', ',', '^', ',', '^', ',', 'V', 'D', ',', 'U']
+['RT', '@xxxMxGxWxVxxx', ':', '🎼ＲＥＴＷＥＥＴ', '🎼ＩＦ', '🎼ＹＯＵ', '🎼ＷＡＮＴ', '🎼ＦＯ ＬＬＯＷＥＲＳ', '🎼', '#MGWV', '🎼', '#FollowTrick', '🎼', '#TeamFollowBack', '🎼', '#AnotherFollowTrain', '🎼#ＦＯＬＬＯＷ', '☜', '~', '(', '●̮̃•', '…']
+['~', '@', '~', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'G', 'G', ',', '~', ',']
+['~', '@', '~', '^', '^', '^', '^', '^', ',', '#', 'G', '#', 'G', '#', 'G', '#', 'G', 'E', 'G', ',', '^', ',']
+['1pcs', 'Vintage', 'telescope', 'Cabochon', 'Silver', 'plated', 'Glass', 'Chain', 'Pendant', 'Necklace', '-', 'Bid', 'Now', '!', 'Only', '…', 'https://t.co/I8InaGlarj', 'https://t.co/mFCujPQc1X']
+['$', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', ',', 'N', 'R', ',', 'R', ',', 'U', 'U']
+['^', '^', '^', '^', '^', '^', '^', '^', '^', '^', ',', 'N', 'R', ',', 'R', ',', 'U', 'U']
+['REQUEST', 'FOR', 'PROPOSALSREFUGEE', 'EMPLOYMENT', ':', 'REQUEST', 'FOR', 'PROPOSALS', 'REFUGEE', 'EMPLOYMENT', 'AND', 'ACCULTURATION', 'SERVICES', 'T', '...', 'https://t.co/qUUNzTho4Z']
+['N', 'P', '^', 'N', ',', 'N', 'P', 'N', 'N', 'N', '&', 'N', 'N', 'G', '~', 'U']
+['^', 'P', '^', '^', ',', '^', 'P', '^', '^', '^', '&', '^', '^', '^', ',', 'U']
+['>', 'UOS', ':', 'MA/MSc', 'Adm', 'Last', 'Date', '11', 'April', 'With', 'Single', 'Fee', '>', 'AIOU', ':', 'Semester', 'Spring', 'Adm', 'Last', 'Date', 'With', 'Late', 'Fee', '11', 'April', '>', 'PU', ':', 'BA/BSc', 'Exams', 'From', '7', 'April']
+['G', '^', ',', 'G', 'G', 'A', 'N', '$', '^', 'P', 'A', 'N', 'E', 'E', ',', 'N', 'N', 'G', 'A', 'N', 'P', 'A', 'N', '$', '^', 'G', '^', ',', '^', '^', 'P', '$', '^']
+['~', '^', ',', '^', '^', 'A', 'N', '$', '^', 'P', 'A', 'N', 'G', 'G', '~', '^', 'N', 'N', 'A', 'N', 'P', 'A', 'N', '$', '^', 'G', 'G', '~', '^', '^', 'P', '$', '^']
+['Temp', ':', '6.7', 'c', 'hum', ':', '78%', 'wind', ':', '4.0', 'mph', 'dir', ':', 'W', 'Pres', ':', '972.2', 'hPa', 'Rising', 'slowly', 'rain', ':', '0.3', 'uv', ':', '0', 'sol', ':', '96', 'light', ':', '12178.0', 'forcast', ':', 'Mostly', 'very', 'unsettled']
+['N', ',', '$', 'N', 'N', ',', '$', 'N', ',', '$', 'N', 'N', ',', 'G', '^', ',', '$', '^', 'V', 'R', 'N', ',', '$', 'N', ',', '$', 'N', ',', '$', 'N', ',', '$', 'N', ',', 'R', 'R', 'A']
+['^', ',', '^', 'G', 'N', ',', '^', 'N', ',', '$', 'N', 'N', ',', 'G', '^', ',', '^', '^', 'V', 'R', 'V', ',', '^', '^', ',', '$', 'N', ',', '$', 'N', ',', '^', '^', ',', 'R', 'R', 'A']
+['6pm', ':', 'Cloudy', '12.2', 'C', '-', 'Wind', ':', 'S', '24km/h', '-', 'Bar', ':', '101.8', 'kPa', '-', 'Hum', ':', '36%', '#Kelowna', '#Weather']
+['$', ',', 'A', '$', 'N', ',', 'N', ',', '^', '$', ',', 'N', ',', '$', 'N', ',', 'N', ',', '$', '#', '#']
+['$', ',', 'A', 'N', 'G', ',', 'N', ',', 'G', 'G', ',', '^', ',', '^', 'N', ',', 'G', '~', '^', '^', '#']

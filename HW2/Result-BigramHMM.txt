@@ -1,0 +1,203 @@
+============= Bigram HMM with UNK =============
+Building Bigram HMM with Unknown Threshold as 1
+Predict the Dev Dataset
+Accuracy is 92.1811%, total tags are 73489, matched tags are 67743
+Building Bigram HMM with Unknown Threshold as 3
+Predict the Dev Dataset
+Accuracy is 90.9592%, total tags are 73489, matched tags are 66845
+Building Bigram HMM with Unknown Threshold as 5
+Predict the Dev Dataset
+Accuracy is 90.0597%, total tags are 73489, matched tags are 66184
+When UNK Threshold as 1, the accuracy is the best, use it for other testing
+============= Bigram HMM with UNK and Add-K Smoothing =============
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 92.1811%, total tags are 73489, matched tags are 67743
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 92.1811%, total tags are 73489, matched tags are 67743
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 92.1811%, total tags are 73489, matched tags are 67743
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 92.1811%, total tags are 73489, matched tags are 67743
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 92.1771%, total tags are 73489, matched tags are 67740
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.000100, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 92.1716%, total tags are 73489, matched tags are 67736
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 92.1757%, total tags are 73489, matched tags are 67739
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 92.1757%, total tags are 73489, matched tags are 67739
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 92.1757%, total tags are 73489, matched tags are 67739
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 92.1757%, total tags are 73489, matched tags are 67739
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 92.1716%, total tags are 73489, matched tags are 67736
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.001000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 92.1689%, total tags are 73489, matched tags are 67734
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 92.1498%, total tags are 73489, matched tags are 67720
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 92.1498%, total tags are 73489, matched tags are 67720
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 92.1498%, total tags are 73489, matched tags are 67720
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 92.1485%, total tags are 73489, matched tags are 67719
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 92.0750%, total tags are 73489, matched tags are 67665
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.010000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 91.6491%, total tags are 73489, matched tags are 67352
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.100000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 91.6967%, total tags are 73489, matched tags are 67387
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.100000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 91.6967%, total tags are 73489, matched tags are 67387
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.100000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 91.6940%, total tags are 73489, matched tags are 67385
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.100000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 91.4450%, total tags are 73489, matched tags are 67202
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.100000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 88.1234%, total tags are 73489, matched tags are 64761
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 0.100000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 83.2682%, total tags are 73489, matched tags are 61193
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 1.000000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 87.9819%, total tags are 73489, matched tags are 64657
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 1.000000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 87.9819%, total tags are 73489, matched tags are 64657
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 1.000000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 87.9683%, total tags are 73489, matched tags are 64647
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 1.000000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 86.7640%, total tags are 73489, matched tags are 63762
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 1.000000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 75.7215%, total tags are 73489, matched tags are 55647
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 1.000000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 64.6995%, total tags are 73489, matched tags are 47547
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 10.000000, k (for transition) as 0.000100
+Predict the Dev Dataset
+Accuracy is 75.5732%, total tags are 73489, matched tags are 55538
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 10.000000, k (for transition) as 0.001000
+Predict the Dev Dataset
+Accuracy is 75.5732%, total tags are 73489, matched tags are 55538
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 10.000000, k (for transition) as 0.010000
+Predict the Dev Dataset
+Accuracy is 75.5732%, total tags are 73489, matched tags are 55538
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 10.000000, k (for transition) as 0.100000
+Predict the Dev Dataset
+Accuracy is 75.5596%, total tags are 73489, matched tags are 55528
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 10.000000, k (for transition) as 1.000000
+Predict the Dev Dataset
+Accuracy is 71.2283%, total tags are 73489, matched tags are 52345
+Building Bigram HMM with Unknown Threshold as 1, and k (for emission) as 10.000000, k (for transition) as 10.000000
+Predict the Dev Dataset
+Accuracy is 61.1915%, total tags are 73489, matched tags are 44969
+When k (for emission) as 0.000100, k (for transition) as 0.000100, the accuracy is the best, use it for other testing
+============= Bigram HMM with UNK and Linear Interpolation Smoothing =============
+Building Bigram HMM with Unknown Threshold as 1, and lambda as 0.500000, 0.500000
+Predict the Dev Dataset
+Accuracy is 91.9417%, total tags are 73489, matched tags are 67567
+Building Bigram HMM with Unknown Threshold as 1, and lambda as 0.333000, 0.667000
+Predict the Dev Dataset
+Accuracy is 92.1485%, total tags are 73489, matched tags are 67719
+Building Bigram HMM with Unknown Threshold as 1, and lambda as 0.250000, 0.750000
+Predict the Dev Dataset
+Accuracy is 92.2260%, total tags are 73489, matched tags are 67776
+Building Bigram HMM with Unknown Threshold as 1, and lambda as 0.750000, 0.250000
+Predict the Dev Dataset
+Accuracy is 90.9306%, total tags are 73489, matched tags are 66824
+Building Bigram HMM with Unknown Threshold as 1, and lambda as 0.666000, 0.334000
+Predict the Dev Dataset
+Accuracy is 91.4518%, total tags are 73489, matched tags are 67207
+When lambda as 0.250000, 0.750000, the accuracy is the best, use it for other testing
+============= Bigram HMM with UNK, Add-K Smoothing and Linear Interpolation Smoothing =============
+Building Bigram HMM with Unknown Threshold as 1, k (for emission) as 0.000100, k (for transition) as 0.000100, and lambda as 0.250000, 0.750000
+Predict the Dev Dataset
+Accuracy is 92.2260%, total tags are 73489, matched tags are 67776
+Predict the Test Dataset
+Accuracy is 92.3453%, total tags are 73523, matched tags are 67895
+============= Error analysis for Dev Dataset =============
+The confusion matrix:
+      |   O   |   S   |   &   |   ^   |   Z   |   ,   |   $   |   T   |   D   |   U   |   Y   |   R   |   E   |   P   |   ~   |   #   |   N   |   X   |   A   |   V   |   !   |   G   |   L   |   @
+----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+  O   |  4161 |     0 |     0 |    22 |     0 |     0 |     0 |     0 |    33 |     0 |     0 |     0 |     0 |    26 |     0 |     0 |     5 |     0 |     0 |     4 |     4 |     0 |     0 |     0
+  S   |     0 |    20 |     0 |     6 |     0 |     0 |     0 |     0 |     1 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |    10 |     0 |     1 |     0 |     0 |     0 |     0 |     0
+  &   |     0 |     0 |  1249 |     3 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0
+  ^   |     2 |     1 |     0 |  3962 |     0 |    25 |     5 |     0 |     9 |    66 |     0 |     1 |     3 |     2 |     2 |   119 |   424 |     0 |    44 |    76 |     7 |    58 |     0 |     1
+  Z   |     0 |     0 |     0 |    85 |    48 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |     9 |     0 |     4 |     4 |     0 |     0 |     0 |     6
+  ,   |     0 |     0 |     0 |    33 |     0 |  6915 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |     0 |    16 |     0 |    52 |     0 |     0 |     9 |     3 |    71 |     0 |     0
+  $   |     0 |     0 |     0 |   222 |     0 |     0 |   988 |     0 |     0 |     0 |     0 |     1 |     0 |     0 |     0 |    15 |    51 |     0 |     8 |    14 |     3 |    42 |     0 |     0
+  T   |     0 |     0 |     0 |     1 |     0 |     0 |     0 |   255 |     0 |     0 |     0 |     1 |     0 |    14 |     0 |     0 |     4 |     0 |     0 |     0 |     0 |     0 |     0 |     0
+  D   |    51 |     0 |     0 |     5 |     0 |     0 |     0 |     0 |  4161 |     0 |     0 |     6 |     0 |    11 |     0 |     0 |     3 |    41 |     1 |     2 |     7 |     1 |     2 |     0
+  U   |     0 |     0 |     0 |     9 |     0 |     0 |     0 |     0 |     0 |  2916 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |     0 |     0 |     0 |     0 |     0 |     0 |     0
+  Y   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     2 |     0
+  R   |     0 |     0 |     0 |    34 |     0 |     0 |     0 |    22 |    10 |     0 |     0 |  2805 |     0 |    36 |     0 |     0 |    38 |     2 |    72 |    18 |     0 |     4 |     0 |     0
+  E   |     0 |     0 |     0 |    13 |     0 |     3 |     0 |     0 |     0 |     0 |     0 |     0 |   437 |     0 |     0 |     0 |     7 |     0 |     0 |     2 |     0 |    14 |     0 |     0
+  P   |    12 |     0 |     0 |    15 |     0 |     1 |     6 |    52 |     2 |     0 |     0 |    81 |     0 |  5706 |     0 |     1 |    14 |     0 |     3 |    18 |     0 |     8 |     0 |    24
+  ~   |     0 |     0 |     0 |    12 |     0 |    80 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |  4879 |     0 |     2 |     0 |     0 |     1 |     0 |    12 |     0 |     0
+  #   |     0 |     0 |     0 |    48 |     0 |     1 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |  1648 |    12 |     0 |     0 |     1 |     0 |     2 |     0 |     0
+  N   |     0 |     0 |     0 |  1030 |     2 |     7 |    12 |     1 |     0 |     5 |     0 |    16 |     0 |     3 |     1 |    50 |  8691 |     0 |    76 |   235 |    11 |    23 |     0 |     1
+  X   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     7 |     0 |     0 |     0 |     0 |     0 |    41 |     0 |     1 |     0 |     0 |     0 |     0
+  A   |     0 |     0 |     0 |   290 |     0 |     0 |    10 |     1 |     0 |     0 |     0 |    50 |     0 |     2 |     0 |     5 |   124 |     8 |  3314 |    65 |     4 |     8 |     0 |     0
+  V   |     0 |     0 |     0 |   284 |     0 |     1 |     1 |     0 |     1 |     0 |     0 |     7 |     3 |    34 |    25 |    12 |   323 |     0 |    65 |  9402 |     5 |     9 |     0 |     0
+  !   |     0 |     0 |     0 |    63 |     0 |     2 |     0 |     0 |     6 |     0 |     0 |     4 |     1 |     0 |     0 |     0 |     5 |     0 |     4 |    17 |   538 |     2 |     0 |     0
+  G   |     0 |     0 |     0 |   146 |     0 |    60 |     0 |     0 |     1 |     1 |     0 |     0 |     2 |     4 |     1 |     4 |    48 |     0 |     4 |     9 |     8 |   382 |     0 |     0
+  L   |     0 |     0 |     0 |    13 |     1 |     0 |     0 |     0 |    12 |     0 |     1 |     0 |     0 |     0 |     0 |     0 |     5 |     0 |     0 |     7 |     1 |     5 |   944 |     0
+  @   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |  4314
+Top 10 data contain most errors:
+['Shifts', 'in', 'consciousness', "hap'n", 'overnite', 'due2', '#socialmedia', 'Prob', ':', 'many', '2be', 'effected', 'are', 'silenced', 'bcuz', 'theyve', 'been', 'denial', 'far2long', '#theynotreadyRT', '@DrizzyNYC__', ':', 'This', 'Child', 'Plays', 'With', 'A', 'Strange', 'New', 'Friend', '.', 'When', 'I', 'Realized', 'What', 'It', 'Was', 'My', 'Jaw', 'Dropped', 'https://t.co/zW1MJwqIKe']
+['V', 'P', 'N', 'V', 'R', 'P', '#', 'R', ',', 'A', 'P', 'V', 'V', 'V', 'P', 'L', 'V', 'N', 'P', '#', '@', '~', 'D', 'N', 'V', 'P', 'D', 'A', 'A', 'N', ',', 'R', 'O', 'V', 'O', 'O', 'V', 'D', 'N', 'V', 'U']
+['^', 'P', '^', '^', '^', '^', '^', '^', ',', 'A', 'N', 'N', 'V', 'V', '^', '^', 'V', 'N', 'N', '#', '@', '~', 'D', 'N', 'N', 'P', 'D', 'A', 'A', 'N', ',', 'R', 'O', 'V', 'O', 'O', 'V', 'D', 'N', 'V', 'U']
+['>', 'UOS', ':', 'MA/MSc', 'Adm', 'Last', 'Date', '11', 'April', 'With', 'Single', 'Fee', '>', 'AIOU', ':', 'Semester', 'Spring', 'Adm', 'Last', 'Date', 'With', 'Late', 'Fee', '11', 'April', '>', 'PU', ':', 'BA/BSc', 'Exams', 'From', '7', 'April']
+['G', '^', ',', 'G', 'G', 'A', 'N', '$', '^', 'P', 'A', 'N', 'E', 'E', ',', 'N', 'N', 'G', 'A', 'N', 'P', 'A', 'N', '$', '^', 'G', '^', ',', '^', '^', 'P', '$', '^']
+['G', 'G', '~', '^', '^', 'A', 'N', '$', '^', 'P', 'A', 'N', 'G', 'G', '~', '^', 'N', 'V', 'A', 'N', 'P', 'A', 'N', '$', '^', 'G', 'G', '~', '^', '^', 'P', '$', '^']
+['Temp', ':', '6.7', 'c', 'hum', ':', '78%', 'wind', ':', '4.0', 'mph', 'dir', ':', 'W', 'Pres', ':', '972.2', 'hPa', 'Rising', 'slowly', 'rain', ':', '0.3', 'uv', ':', '0', 'sol', ':', '96', 'light', ':', '12178.0', 'forcast', ':', 'Mostly', 'very', 'unsettled']
+['N', ',', '$', 'N', 'N', ',', '$', 'N', ',', '$', 'N', 'N', ',', 'G', '^', ',', '$', '^', 'V', 'R', 'N', ',', '$', 'N', ',', '$', 'N', ',', '$', 'N', ',', '$', 'N', ',', 'R', 'R', 'A']
+['^', ',', 'G', 'G', 'N', ',', '^', 'N', ',', '$', 'N', 'N', ',', '^', '^', ',', '^', '^', 'V', 'R', 'N', ',', '^', '^', ',', '$', 'N', ',', '$', 'N', ',', '^', '^', ',', 'R', 'R', 'G']
+['RT', '@GiteshPandya', ':', '16%', 'intl', 'drop', 'THU', 'for', '#BatmanvSuperman', 'to', '$16.8', 'M', '.', '$345M', 'intl', 'total', ',', 'global', 'at', '$554M', 'going', 'into', '2nd', 'wknd', '.', 'Shd', 'smash', '$700M', '…']
+['~', '@', '~', '$', 'N', 'N', '^', 'P', '^', 'P', '$', 'N', ',', '$', 'N', 'N', ',', 'A', 'P', '^', 'V', 'P', '$', 'N', ',', 'V', 'V', '$', ',']
+['~', '@', '~', '^', '^', 'V', 'N', 'P', '^', 'P', '^', '^', ',', '^', '^', 'A', ',', 'A', 'P', '^', 'V', 'P', '$', 'N', ',', '^', 'V', '^', ',']
+['1pcs', 'Vintage', 'telescope', 'Cabochon', 'Silver', 'plated', 'Glass', 'Chain', 'Pendant', 'Necklace', '-', 'Bid', 'Now', '!', 'Only', '…', 'https://t.co/I8InaGlarj', 'https://t.co/mFCujPQc1X']
+['$', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', ',', 'N', 'R', ',', 'R', ',', 'U', 'U']
+['^', '^', '^', '^', '^', '^', '^', '^', '^', '^', ',', 'N', 'R', ',', 'R', ',', 'U', 'U']
+['RT', '@Tradeweb', ':', 'Italy', '10Y', 'benchmark', 'bond', 'mid-yield', ':', '1.27%', ';', 'Spread', 'v', '.', '10Y', 'German', 'bund', '116.70', ';', '+', '5.00', 'bps', 'from', 'prev', 'close', '#EUGV']
+['~', '@', '~', '^', '$', 'N', 'N', 'A', ',', '$', ',', 'V', '^', ',', '$', 'A', 'N', '$', ',', '&', '$', 'N', 'P', '^', 'A', 'N']
+['~', '@', '~', '^', '^', 'N', 'N', 'N', ',', '^', ',', 'V', '^', ',', '^', '^', '^', '^', ',', '&', '^', '^', 'P', '^', 'A', '#']
+['RT', '@aliandlucky', ':', '#win', '£150', 'to', 'spend', 'at', 'Champneys', 'Spa', '.', 'Just', 'follow', '@aliandlucky', 'and', 'RT', '.', '#giveaway', 'ends', '9.4.16', '#competition', 'https://t.co/T6…RT', '@MDUK_News', ':', 'Help', 'us', 'cheer', 'on', 'our', '#TeamOrange', 'runners', 'at', 'the', '#LondonMarathon', 'on', '24', 'April', '!', 'Contact', 'events@musculardystrophyuk.org', 'https://…']
+['~', '@', '~', 'V', '$', 'P', 'V', 'P', '^', '^', ',', 'R', 'V', '@', '&', 'V', ',', 'N', 'V', '$', 'N', 'U', '@', '~', 'V', 'O', 'V', 'P', 'D', '^', 'N', 'P', 'D', '^', 'P', '$', '^', ',', 'V', 'U', 'U']
+['~', '@', '~', '^', '^', 'P', 'V', 'P', '^', '^', ',', 'R', 'V', '@', '&', '~', ',', '#', 'V', '^', '#', 'U', '@', '~', 'V', 'O', 'V', 'P', 'D', 'N', 'N', 'P', 'D', 'N', 'P', '$', '^', ',', 'N', 'N', 'U']
+['7', 'Fuse', 'Lamps', '8V', '250mA', '+7', 'Bi-Pins', '8V', '40mA', 'KIT', 'STEREO', 'AM/FM', 'LIGHTS/', '2265', '2275', '2250', 'https://t.co/MMbcOhTog1', 'https://t.co/gmozwmlFYX']
+['$', 'N', 'N', '$', '$', '$', 'G', '$', '^', '^', '^', '^', '^', '$', '$', '$', 'U', 'U']
+['$', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'U', 'U']
+['RT', '@xxxMxGxWxVxxx', ':', '🎼ＲＥＴＷＥＥＴ', '🎼ＩＦ', '🎼ＹＯＵ', '🎼ＷＡＮＴ', '🎼ＦＯＬＬＯＷＥＲＳ', '🎼', '#MGWV', '🎼', '#FollowTrick', '🎼', '#TeamFollowBack', '🎼', '#AnotherFollowTrain', '🎼#ＦＯＬＬＯＷ', '☜', '~', '(', '●̮̃•', '…']
+['~', '@', '~', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', '^', 'G', 'G', ',', '~', ',']
+['~', '@', '~', '^', '^', '^', '^', '^', ',', '#', 'G', '#', 'G', '#', 'G', '#', '^', ',', 'G', ',', '^', ',']
+['#Earthquake', ':', 'M', '2.1', '-', '16km', 'S', 'of', 'Fern', 'Acres', ',', 'Hawaii', ':', 'DYFI', '?', '-', 'IITime2016-04-01', '20:26:36', 'UTC2016-04-01', '10:26:36', '-1', '...', 'https://t.co/psyAuOyEwe']
+['^', ',', '^', '$', ',', '$', 'N', 'P', '^', '^', ',', '^', ',', '^', ',', 'G', '$', '$', '$', '$', '$', ',', 'U']
+['#', ',', '^', '^', ',', '^', '^', 'P', '^', '^', ',', '^', ',', '^', ',', ',', '^', '^', '^', '^', '$', ',', 'U']
