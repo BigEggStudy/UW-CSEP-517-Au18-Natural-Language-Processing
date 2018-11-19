@@ -19,25 +19,33 @@ class StructuredPerceptron(object):
         random.seed(seed)
         np.random.seed(seed)
 
-    def fit(self, train_data, iterations=5, learning_rate=0.2):
+    def fit(self, train_data, iterations=5, learning_rate=1, feature_test = 0):
         """
         read in a CoNLL file, extract emission features iterate over instances to train weight vector
         :param file_name:
         :return:
         """
+        self.feature_weights = defaultdict(float)
+        self.all_ner_tags = set()
         averaged_weights = Counter()
 
+        # random initialize weights
+        for (inputs, ner_tags) in train_data:
+            for ner_tag in ner_tags:
+                self.all_ner_tags.add(ner_tag)
+            global_gold_features = self.__get_global_features(inputs, ner_tags, feature_test)
+            for fid, count in global_gold_features.items():
+                self.feature_weights[fid] = float(random.randint(-5, 5)) / 10.0
+        averaged_weights.update(self.feature_weights)
+
+        # update weights
         for iteration in range(iterations):
-            for i, (inputs, ner_tags) in enumerate(train_data):
-
-                for ner_tag in ner_tags:
-                    self.all_ner_tags.add(ner_tag)
-
-                prediction = self.viterbi(inputs)
+            for (inputs, ner_tags) in train_data:
+                prediction = self.viterbi(inputs, feature_test)
 
                 # derive global features
-                global_gold_features = self.__get_global_features(inputs, ner_tags)
-                global_prediction_features = self.__get_global_features(inputs, prediction)
+                global_gold_features = self.__get_global_features(inputs, ner_tags, feature_test)
+                global_prediction_features = self.__get_global_features(inputs, prediction, feature_test)
 
                 # update weight vector
                 for fid, count in global_gold_features.items():
@@ -50,16 +58,16 @@ class StructuredPerceptron(object):
 
         self.feature_weights = averaged_weights
 
-    def __get_global_features(self, inputs, ner_tags):
+    def __get_global_features(self, inputs, ner_tags, feature_test):
         feature_counts = Counter()
 
         for i, (input_data, ner_tag) in enumerate(zip(inputs, ner_tags)):
             previous_tag = constant.SENTENCE_START_TAG if i == 0 else ner_tags[i-1]
-            feature_counts.update(self.get_features(input_data, ner_tag, previous_tag))
+            feature_counts.update(self.get_features(input_data, ner_tag, previous_tag, feature_test))
 
         return feature_counts
 
-    def viterbi(self, sentence):
+    def viterbi(self, sentence, feature_test):
         N = len(sentence)
         M = len(self.all_ner_tags)
         tags = list(self.all_ner_tags)
@@ -70,7 +78,7 @@ class StructuredPerceptron(object):
 
         for j in range(M):
             cur_tag = tags[j]
-            features = self.get_features(sentence[0], cur_tag, constant.SENTENCE_START_TAG)
+            features = self.get_features(sentence[0], cur_tag, constant.SENTENCE_START_TAG, feature_test)
             weights = sum((self.feature_weights[x] for x in features))
             viterbiMatrix[j, 0] = weights
 
@@ -85,7 +93,7 @@ class StructuredPerceptron(object):
 
                     best_before = viterbiMatrix[k, i-1]
 
-                    features = self.get_features(sentence[i], tag, previous_tag)
+                    features = self.get_features(sentence[i], tag, previous_tag, feature_test)
                     weights = sum((self.feature_weights[x] for x in features))
                     score = best_before + weights
 
@@ -105,12 +113,12 @@ class StructuredPerceptron(object):
 
         return predtags[::-1]
 
-    def predict(self, test_data):
-        result = Parallel(n_jobs=6)(delayed(self.viterbi)(sentence) for sentence in test_data)
+    def predict(self, test_data, feature_test = 0):
+        result = Parallel(n_jobs=6)(delayed(self.viterbi)(sentence, feature_test) for sentence in test_data)
         return result
 
     @cache
-    def get_features(self, input_data, ner_tag, previous_ner_tag):
+    def get_features(self, input_data, ner_tag, previous_ner_tag, feature_test):
         word = input_data[0]
         pos_tag = input_data[1]
         syntactic_chunk_tag = input_data[2]
@@ -135,6 +143,26 @@ class StructuredPerceptron(object):
                     'SYNTACTICTAG+TAG_%s_%s' % (syntactic_chunk_tag, ner_tag),
                     'POSTAG+SYNTACTICTAG+TAG_%s_%s_%s' % (pos_tag, syntactic_chunk_tag, ner_tag),
         ]
+
+        if feature_test == 1:
+            features.pop(8)
+        elif feature_test == 2:
+            features.pop(11)
+            features.pop(10)
+            features.pop(9)
+            features.pop(1)
+        elif feature_test == 3:
+            features.pop(14)
+            features.pop(13)
+            features.pop(12)
+        elif feature_test == 4:
+            features.pop(11)
+            features.pop(10)
+            features.pop(7)
+            features.pop(6)
+            features.pop(4)
+            features.pop(3)
+
         return features
 
     @cache
