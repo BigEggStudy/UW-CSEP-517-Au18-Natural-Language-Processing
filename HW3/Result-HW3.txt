@@ -1,42 +1,35 @@
-============= Structure Preceptron (Small) =============
+============= Structure Perceptron (Small) =============
 Read Documents and Featurize
-Training Struecture Preceptron with iteration 1, and learning rate 1
+Training Structure Perceptron with iteration 5, and learning rate 1
 Predict the Dev Set
-Accuracy is 94.50%, total tags are 7315, matched tags are 6913
+Accuracy is 95.9809%, total tags are 7315, matched tags are 7021
 Output the predict for Evaluation
 Predict the Test Set
-Accuracy is 91.69%, total tags are 6255, matched tags are 5735
+Accuracy is 92.4700%, total tags are 6255, matched tags are 5784
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 5, and learning rate 1
+Training Structure Perceptron with iteration 10, and learning rate 1
 Predict the Dev Set
-Accuracy is 96.40%, total tags are 7315, matched tags are 7052
+Accuracy is 96.5003%, total tags are 7315, matched tags are 7059
 Output the predict for Evaluation
 Predict the Test Set
-Accuracy is 93.76%, total tags are 6255, matched tags are 5865
+Accuracy is 93.4772%, total tags are 6255, matched tags are 5847
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 10, and learning rate 1
+Training Structure Perceptron with iteration 15, and learning rate 1
 Predict the Dev Set
-Accuracy is 96.92%, total tags are 7315, matched tags are 7090
+Accuracy is 96.8421%, total tags are 7315, matched tags are 7084
 Output the predict for Evaluation
 Predict the Test Set
-Accuracy is 94.00%, total tags are 6255, matched tags are 5880
+Accuracy is 93.7810%, total tags are 6255, matched tags are 5866
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 15, and learning rate 1
+Training Structure Perceptron with iteration 20, and learning rate 1
 Predict the Dev Set
-Accuracy is 96.62%, total tags are 7315, matched tags are 7068
+Accuracy is 96.7464%, total tags are 7315, matched tags are 7077
 Output the predict for Evaluation
 Predict the Test Set
-Accuracy is 93.65%, total tags are 6255, matched tags are 5858
-Output the predict for Evaluation
-Training Struecture Preceptron with iteration 20, and learning rate 1
-Predict the Dev Set
-Accuracy is 96.79%, total tags are 7315, matched tags are 7080
-Output the predict for Evaluation
-Predict the Test Set
-Accuracy is 93.94%, total tags are 6255, matched tags are 5876
+Accuracy is 93.7650%, total tags are 6255, matched tags are 5865
 Output the predict for Evaluation
 Read Documents and Featurize
-Training Struecture Preceptron with iteration 50, and learning rate 1
+Training Structure Perceptron with iteration 50, and learning rate 1
 Predict the Training Set
 Accuracy is 99.9735%, total tags are 41536, matched tags are 41525
 Predict the Dev Set
@@ -45,7 +38,7 @@ Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.8929%, total tags are 6255, matched tags are 5873
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 75, and learning rate 1
+Training Structure Perceptron with iteration 75, and learning rate 1
 Predict the Training Set
 Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
 Predict the Dev Set
@@ -54,7 +47,7 @@ Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.8609%, total tags are 6255, matched tags are 5871
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 100, and learning rate 1
+Training Structure Perceptron with iteration 100, and learning rate 1
 Predict the Training Set
 Accuracy is 99.9783%, total tags are 41536, matched tags are 41527
 Predict the Dev Set
@@ -63,7 +56,7 @@ Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.8449%, total tags are 6255, matched tags are 5870
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 150, and learning rate 1
+Training Structure Perceptron with iteration 150, and learning rate 1
 Predict the Training Set
 Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
 Predict the Dev Set
@@ -72,7 +65,7 @@ Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.8929%, total tags are 6255, matched tags are 5873
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 200, and learning rate 1
+Training Structure Perceptron with iteration 200, and learning rate 1
 Predict the Training Set
 Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
 Predict the Dev Set
@@ -81,7 +74,7 @@ Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.9249%, total tags are 6255, matched tags are 5875
 Output the predict for Evaluation
-Training Struecture Preceptron with iteration 250, and learning rate 1
+Training Structure Perceptron with iteration 250, and learning rate 1
 Predict the Training Set
 Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
 Predict the Dev Set
@@ -92,31 +85,31 @@ Accuracy is 93.9249%, total tags are 6255, matched tags are 5875
 Output the predict for Evaluation
 When training with 100 iteration, Dev Set have highest accuracy
 Read Documents and Featurize
-============= Structure Preceptron (Full Set) =============
-============= Structure Preceptron (Ablation) =============
+============= Structure Perceptron (Full Set) =============
+============= Structure Perceptron (Ablation) =============
 Read Documents and Featurize
-Training Structure Preceptron with iteration 75, and learning rate 1
+Training Structure Perceptron with iteration 75, and learning rate 1
 Predict the Dev Set
 Accuracy is 96.5003%, total tags are 7315, matched tags are 7059
 Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.3333%, total tags are 6255, matched tags are 5838
 Output the predict for Evaluation
-Training Structure Preceptron with iteration 75, and learning rate 1
+Training Structure Perceptron with iteration 75, and learning rate 1
 Predict the Dev Set
 Accuracy is 95.6254%, total tags are 7315, matched tags are 6995
 Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 92.6139%, total tags are 6255, matched tags are 5793
 Output the predict for Evaluation
-Training Structure Preceptron with iteration 75, and learning rate 1
+Training Structure Perceptron with iteration 75, and learning rate 1
 Predict the Dev Set
 Accuracy is 96.6644%, total tags are 7315, matched tags are 7071
 Output the predict for Evaluation
 Predict the Test Set
 Accuracy is 93.7970%, total tags are 6255, matched tags are 5867
 Output the predict for Evaluation
-Training Structure Preceptron with iteration 75, and learning rate 1
+Training Structure Perceptron with iteration 75, and learning rate 1
 Predict the Dev Set
 Accuracy is 96.2133%, total tags are 7315, matched tags are 7038
 Output the predict for Evaluation

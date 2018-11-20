@@ -9,10 +9,10 @@ if __name__=="__main__":
     # small_test_data_x = [ input for input, ner_tag in small_test_data ]
     # small_test_data_y = [ ner_tag for input, ner_tag in small_test_data ]
 
-    # print('============= Structure Preceptron (Test) =============')
+    # print('============= Structure Perceptron (Test) =============')
     # sp = StructuredPerceptron()
 
-    # print('Training Structure Preceptron with iteration 1, and learning rate 0.2')
+    # print('Training Structure Perceptron with iteration 1, and learning rate 0.2')
     # sp.fit(small_test_data, iterations=1, learning_rate=0.2)
 
     # print('Predict the Dev Set')
@@ -24,7 +24,7 @@ if __name__=="__main__":
 
     #####################################################################
 
-    print('============= Structure Preceptron (Small) =============')
+    print('============= Structure Perceptron (Small) =============')
     print('Read Documents and Featurize')
     train_data = list(utils.load_file('..\\data\\eng.train.small'))
     dev_data = list(utils.load_file('..\\data\\eng.dev.small'))
@@ -41,9 +41,9 @@ if __name__=="__main__":
 
     best_iteration = 0
     best_dev_correction = 0
-    for iteration in [5, 10, 15, 20]:
-    # for iteration in [1, 5, 10, 15, 20, 50, 75, 100, 150, 200, 250]:
-        print(f'Training Structure Preceptron with iteration {iteration}, and learning rate 1')
+    # for iteration in [5, 10, 15, 20]:
+    for iteration in [5, 10, 15, 20, 50, 75, 100, 150, 200, 250]:
+        print(f'Training Structure Perceptron with iteration {iteration}, and learning rate 1')
         sp.fit(train_data, iterations=iteration)
 
         # print('Predict the Training Set')
@@ -72,7 +72,7 @@ if __name__=="__main__":
 
     #####################################################################
 
-    # print('============= Structure Preceptron (Full Set) =============')
+    # print('============= Structure Perceptron (Full Set) =============')
     # best_iteration = 75
     # print('Read Documents and Featurize')
     # train_data = list(utils.load_file('..\\data\\eng.train'))
@@ -87,7 +87,7 @@ if __name__=="__main__":
     # sp = StructuredPerceptron()
 
     # for iteration in [best_iteration - 25, best_iteration, best_iteration + 25]:
-    #     print(f'Training Structure Preceptron with iteration {iteration}, and learning rate 1')
+    #     print(f'Training Structure Perceptron with iteration {iteration}, and learning rate 1')
     #     sp.fit(train_data, iterations=iteration)
 
     #     print('Predict the Dev Set')
@@ -106,7 +106,7 @@ if __name__=="__main__":
 
     #####################################################################
 
-    print('============= Structure Preceptron (Ablation) =============')
+    print('============= Structure Perceptron (Ablation) =============')
     print('Read Documents and Featurize')
     train_data = list(utils.load_file('..\\data\\eng.train.small'))
     dev_data = list(utils.load_file('..\\data\\eng.dev.small'))
@@ -120,8 +120,8 @@ if __name__=="__main__":
     test_data_y = [ ner_tag for input, ner_tag in test_data ]
 
     sp = StructuredPerceptron()
-    for ablation in range(3, 5):
-        print(f'Training Structure Preceptron with iteration 75, and learning rate 1')
+    for ablation in range(1, 5):
+        print(f'Training Structure Perceptron with iteration 75, and learning rate 1')
         sp.fit(train_data, iterations=75, feature_test=ablation)
 
         print('Predict the Dev Set')
