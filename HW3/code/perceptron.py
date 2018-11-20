@@ -9,10 +9,6 @@ from utils import cache
 
 class StructuredPerceptron(object):
     def __init__(self, seed=100):
-        """
-        initialize model
-        :return:
-        """
         self.feature_weights = defaultdict(float)
         self.all_ner_tags = set()
 
@@ -20,11 +16,6 @@ class StructuredPerceptron(object):
         np.random.seed(seed)
 
     def fit(self, train_data, iterations=5, learning_rate=1, feature_test = 0):
-        """
-        read in a CoNLL file, extract emission features iterate over instances to train weight vector
-        :param file_name:
-        :return:
-        """
         self.feature_weights = defaultdict(float)
         self.all_ner_tags = set()
         averaged_weights = Counter()
@@ -33,8 +24,8 @@ class StructuredPerceptron(object):
         for (inputs, ner_tags) in train_data:
             for ner_tag in ner_tags:
                 self.all_ner_tags.add(ner_tag)
-            global_gold_features = self.__get_global_features(inputs, ner_tags, feature_test)
-            for fid, count in global_gold_features.items():
+            global_expected_features = self.__get_global_features(inputs, ner_tags, feature_test)
+            for fid, count in global_expected_features.items():
                 self.feature_weights[fid] = float(random.randint(-5, 5)) / 10.0
         averaged_weights.update(self.feature_weights)
 
@@ -44,11 +35,11 @@ class StructuredPerceptron(object):
                 prediction = self.viterbi(inputs, feature_test)
 
                 # derive global features
-                global_gold_features = self.__get_global_features(inputs, ner_tags, feature_test)
+                global_expected_features = self.__get_global_features(inputs, ner_tags, feature_test)
                 global_prediction_features = self.__get_global_features(inputs, prediction, feature_test)
 
                 # update weight vector
-                for fid, count in global_gold_features.items():
+                for fid, count in global_expected_features.items():
                     self.feature_weights[fid] += learning_rate * count
                 for fid, count in global_prediction_features.items():
                     self.feature_weights[fid] -= learning_rate * count
