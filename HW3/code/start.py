@@ -20,7 +20,7 @@ if __name__=="__main__":
     # correct, total = utils.predict_eval(small_test_data_y, predict, True)
     # print('Accuracy is %.4f%%, total tags are %d, matched tags are %d' % (correct / total * 100.0, total, correct))
     # print('Output the predict for Evaluation')
-    # utils.write_file('.\dev.small.output', small_test_data, predict)
+    # utils.write_file('..\\output\\unit_test.output', small_test_data, predict)
 
     #####################################################################
 
