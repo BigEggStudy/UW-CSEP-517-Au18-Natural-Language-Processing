@@ -15,10 +15,8 @@ class StructuredPerceptron(object):
         random.seed(seed)
         np.random.seed(seed)
 
-    def fit(self, train_data, iterations=5, learning_rate=1, feature_test = 0):
-        self.feature_weights = defaultdict(float)
-        self.all_ner_tags = set()
-        averaged_weights = Counter()
+    def initialize(self, train_data, feature_test = 0):
+        weights = defaultdict(float)
 
         # random initialize weights
         for (inputs, ner_tags) in train_data:
@@ -26,26 +24,42 @@ class StructuredPerceptron(object):
                 self.all_ner_tags.add(ner_tag)
             global_expected_features = self.__get_global_features(inputs, ner_tags, feature_test)
             for fid, count in global_expected_features.items():
-                self.feature_weights[fid] = float(random.randint(-5, 5)) / 10.0
-        averaged_weights.update(self.feature_weights)
+                weights[fid] = float(random.randint(-5, 5)) / 10.0
+
+        return weights
+
+    def fit_one(self, weights, train_data, learning_rate=1, feature_test = 0):
+        for x in train_data:
+            (inputs, ner_tags) = x
+            prediction = self.viterbi(inputs, feature_test, weights)
+
+            # derive global features
+            global_expected_features = self.__get_global_features(inputs, ner_tags, feature_test)
+            global_prediction_features = self.__get_global_features(inputs, prediction, feature_test)
+
+            # update weight vector
+            for fid, count in global_expected_features.items():
+                weights[fid] += learning_rate * count
+            for fid, count in global_prediction_features.items():
+                weights[fid] -= learning_rate * count
+
+        return weights
+
+    def fit(self, train_data, iterations=5, learning_rate=1, feature_test = 0):
+        weights = self.initialize(train_data, feature_test)
+        averaged_weights = defaultdict(float)
 
         # update weights
         for iteration in range(iterations):
-            for (inputs, ner_tags) in train_data:
-                prediction = self.viterbi(inputs, feature_test)
-
-                # derive global features
-                global_expected_features = self.__get_global_features(inputs, ner_tags, feature_test)
-                global_prediction_features = self.__get_global_features(inputs, prediction, feature_test)
-
-                # update weight vector
-                for fid, count in global_expected_features.items():
-                    self.feature_weights[fid] += learning_rate * count
-                for fid, count in global_prediction_features.items():
-                    self.feature_weights[fid] -= learning_rate * count
-
-            averaged_weights.update(self.feature_weights)
+            weights = self.fit_one(weights, train_data, learning_rate, feature_test)
+            for key in weights.keys():
+                print(averaged_weights[key])
+                print(weights[key])
+                averaged_weights[key] += weights[key]
             random.shuffle(train_data)
+
+        for key in averaged_weights.keys():
+            averaged_weights[key] = averaged_weights[key] / iterations
 
         self.feature_weights = averaged_weights
 
@@ -58,7 +72,7 @@ class StructuredPerceptron(object):
 
         return feature_counts
 
-    def viterbi(self, sentence, feature_test):
+    def viterbi(self, sentence, feature_test, weights):
         N = len(sentence)
         M = len(self.all_ner_tags)
         tags = list(self.all_ner_tags)
@@ -70,8 +84,8 @@ class StructuredPerceptron(object):
         for j in range(M):
             cur_tag = tags[j]
             features = self.get_features(sentence[0], cur_tag, constant.SENTENCE_START_TAG, feature_test)
-            weights = sum((self.feature_weights[x] for x in features))
-            viterbiMatrix[j, 0] = weights
+            new_weights = sum([weights[x] for x in features])
+            viterbiMatrix[j, 0] = new_weights
 
         ########### Recursion #################
         for i in range(1, N):
@@ -85,8 +99,8 @@ class StructuredPerceptron(object):
                     best_before = viterbiMatrix[k, i-1]
 
                     features = self.get_features(sentence[i], tag, previous_tag, feature_test)
-                    weights = sum((self.feature_weights[x] for x in features))
-                    score = best_before + weights
+                    new_weights = sum([weights[x] for x in features])
+                    score = best_before + new_weights
 
                     if score > best_score:
                         viterbiMatrix[j, i] = score
@@ -105,8 +119,10 @@ class StructuredPerceptron(object):
         return predtags[::-1]
 
     def predict(self, test_data, feature_test = 0):
-        result = Parallel(n_jobs=6)(delayed(self.viterbi)(sentence, feature_test) for sentence in test_data)
-        return result
+        return self.predict_with_weights(test_data, self.feature_weights, feature_test)
+
+    def predict_with_weights(self, test_data, weights, feature_test = 0):
+        return Parallel(n_jobs=6)(delayed(self.viterbi)(sentence, feature_test, weights) for sentence in test_data)
 
     @cache
     def get_features(self, input_data, ner_tag, previous_ner_tag, feature_test):
