@@ -1,0 +1,158 @@
+============= Structure Perceptron (Small) =============
+Read Documents and Featurize
+Training Structure Perceptron with iteration 5, and learning rate 1
+Predict the Dev Set
+Accuracy is 95.9809%, total tags are 7315, matched tags are 7021
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 92.4700%, total tags are 6255, matched tags are 5784
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 10, and learning rate 1
+Predict the Dev Set
+Accuracy is 96.5003%, total tags are 7315, matched tags are 7059
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.4772%, total tags are 6255, matched tags are 5847
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 15, and learning rate 1
+Predict the Dev Set
+Accuracy is 96.8421%, total tags are 7315, matched tags are 7084
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.7810%, total tags are 6255, matched tags are 5866
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 20, and learning rate 1
+Predict the Dev Set
+Accuracy is 96.7464%, total tags are 7315, matched tags are 7077
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.7650%, total tags are 6255, matched tags are 5865
+Output the predict for Evaluation
+Read Documents and Featurize
+Training Structure Perceptron with iteration 50, and learning rate 1
+Predict the Training Set
+Accuracy is 99.9735%, total tags are 41536, matched tags are 41525
+Predict the Dev Set
+Accuracy is 96.7327%, total tags are 7315, matched tags are 7076
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.8929%, total tags are 6255, matched tags are 5873
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 75, and learning rate 1
+Predict the Training Set
+Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
+Predict the Dev Set
+Accuracy is 96.9515%, total tags are 7315, matched tags are 7092
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.8609%, total tags are 6255, matched tags are 5871
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 100, and learning rate 1
+Predict the Training Set
+Accuracy is 99.9783%, total tags are 41536, matched tags are 41527
+Predict the Dev Set
+Accuracy is 96.9515%, total tags are 7315, matched tags are 7092
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.8449%, total tags are 6255, matched tags are 5870
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 150, and learning rate 1
+Predict the Training Set
+Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
+Predict the Dev Set
+Accuracy is 96.6234%, total tags are 7315, matched tags are 7068
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.8929%, total tags are 6255, matched tags are 5873
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 200, and learning rate 1
+Predict the Training Set
+Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
+Predict the Dev Set
+Accuracy is 96.3910%, total tags are 7315, matched tags are 7051
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.9249%, total tags are 6255, matched tags are 5875
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 250, and learning rate 1
+Predict the Training Set
+Accuracy is 99.9759%, total tags are 41536, matched tags are 41526
+Predict the Dev Set
+Accuracy is 96.7327%, total tags are 7315, matched tags are 7076
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.9249%, total tags are 6255, matched tags are 5875
+Output the predict for Evaluation
+When training with 75 iteration, Dev Set have highest accuracy
+============= Structure Perceptron (Identify the Error) =============
+Output the Error Sentence
+[([('1990', 'CD', 'I-NP'), ('-', ':', 'I-NP'), ('British', 'JJ', 'I-NP'), ('historian', 'NN', 'I-NP'), ('Alan', 'NNP', 'I-NP'), ('John', 'NNP', 'I-NP'), ('Percivale', 'NNP', 'I-NP'), ('(', '(', 'O'), ('A.J.P.', 'NNP', 'I-NP'), (')', ')', 'O'), ('Taylor', 'NNP', 'I-NP'), ('died', 'VBD', 'I-VP'), ('.', '.', 'O')],
+['O', 'O', 'I-MISC', 'O', 'I-PER', 'I-PER', 'I-PER', 'I-PER', 'I-PER', 'I-PER', 'I-PER', 'O', 'O'],
+['O', 'O', 'I-MISC', 'O', 'I-PER', 'I-PER', 'I-PER', 'O', 'I-LOC', 'O', 'I-ORG', 'O', 'O']),
+
+([('"', '"', 'O'), ('...I', 'NNS', 'I-NP'), ('request', 'VBP', 'I-VP'), ('the', 'DT', 'I-NP'), ('immediate', 'JJ', 'I-NP'), ('repatriation', 'NN', 'I-NP'), ('of', 'IN', 'I-PP'), ('Kim', 'NNP', 'I-NP'), ('In-so', 'NNP', 'I-NP'), ('to', 'TO', 'I-PP'), ('North', 'NNP', 'I-NP'), ('Korea', 'NNP', 'I-NP'), ('where', 'WRB', 'I-ADVP'), ('his', 'PRP$', 'I-NP'), ('family', 'NN', 'I-NP'), ('is', 'VBZ', 'I-VP'), ('waiting', 'VBG', 'I-VP'), (',', ',', 'O'), ('"', '"', 'O'), ('North', 'NNP', 'I-NP'), ('Korean', 'NNP', 'I-NP'), ('Red', 'NNP', 'I-NP'), ('Cross', 'NNP', 'I-NP'), ('president', 'NN', 'I-NP'), ('Li', 'NNP', 'I-NP'), ('Song-ho', 'NNP', 'I-NP'), ('said', 'VBD', 'I-VP'), ('in', 'IN', 'I-PP'), ('a', 'DT', 'I-NP'), ('telephone', 'NN', 'I-NP'), ('message', 'NN', 'I-NP'), ('to', 'TO', 'I-PP'), ('his', 'PRP$', 'I-NP'), ('southern', 'JJ', 'I-NP'), ('couterpart', 'NN', 'I-NP'), (',', ',', 'O'), ('Kang', 'NNP', 'I-NP'), ('Young-hoon', 'NNP', 'I-NP'), ('.', '.', 'O')],
+['O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'I-LOC', 'I-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O'],
+['O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'I-LOC', 'I-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-LOC', 'I-PER', 'I-PER', 'I-PER', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O']),
+
+([('Hen', 'NNP', 'I-NP'), ('Vipheak', 'NNP', 'I-NP'), (',', ',', 'O'), ('former', 'JJ', 'I-NP'), ('editor', 'NN', 'I-NP'), ('of', 'IN', 'I-PP'), ('the', 'DT', 'I-NP'), ('Sereipheap', 'NNP', 'I-NP'), ('Thmei', 'NNP', 'I-NP'), ('(', '(', 'O'), ('New', 'NNP', 'I-NP'), ('Liberty', 'NNP', 'I-NP'), (')', ')', 'O'), ('newspaper', 'NN', 'I-NP'), (',', ',', 'O'), ('stepped', 'VBD', 'I-VP'), ('through', 'IN', 'I-PP'), ('the', 'DT', 'I-NP'), ('gates', 'NNS', 'I-NP'), ('of', 'IN', 'I-PP'), ('the', 'DT', 'I-NP'), ('run-down', 'JJ', 'I-NP'), ('French', 'JJ', 'I-NP'), ('colonial-era', 'NN', 'I-NP'), ('T3', 'JJ', 'I-NP'), ('prison', 'NN', 'I-NP'), ('late', 'JJ', 'B-NP'), ('Friday', 'NNP', 'I-NP'), ('afternoon', 'NN', 'I-NP'), (',', ',', 'O'), ('following', 'VBG', 'I-PP'), ('intervention', 'NN', 'I-NP'), ('on', 'IN', 'I-PP'), ('his', 'PRP$', 'I-NP'), ('behalf', 'NN', 'I-NP'), ('by', 'IN', 'I-PP'), ('King', 'NNP', 'I-NP'), ('Sihanouk', 'NNP', 'I-NP'), ('.', '.', 'O')],
+['I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-MISC', 'O', 'I-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'O'],
+['I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-MISC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-LOC', 'I-LOC', 'O']),
+
+([('About', 'IN', 'I-NP'), ('100', 'CD', 'I-NP'), ('people', 'NNS', 'I-NP'), ('from', 'IN', 'I-PP'), ('the', 'DT', 'I-NP'), ('CFDT', 'NNPS', 'I-NP'), ('and', 'CC', 'O'), ('the', 'DT', 'I-NP'), ('Communist-led', 'JJ', 'I-NP'), ('CGT', 'JJ', 'I-NP'), ('unions', 'NNS', 'I-NP'), ('marched', 'VBD', 'I-VP'), ('outside', 'RB', 'I-ADVP'), ('Air', 'NNP', 'I-NP'), ('France', 'NNP', 'I-NP'), ('headquarters', 'NN', 'I-NP'), ('at', 'IN', 'I-PP'), ('Charles', 'NNP', 'I-NP'), ('de', 'IN', 'I-NP'), ('Gaulle', 'NNP', 'I-NP'), ('airport', 'NN', 'I-NP'), ('north', 'RB', 'I-ADVP'), ('of', 'IN', 'I-PP'), ('Paris', 'NNP', 'I-NP'), ('against', 'IN', 'I-PP'), ('the', 'DT', 'I-NP'), ('use', 'NN', 'I-NP'), ('of', 'IN', 'I-PP'), ('civilian', 'JJ', 'I-NP'), ('jets', 'NNS', 'I-NP'), ('and', 'CC', 'O'), ('staff', 'NN', 'I-NP'), ('in', 'IN', 'I-PP'), ('deporting', 'VBG', 'I-VP'), ('illegal', 'JJ', 'I-NP'), ('immigrants', 'NNS', 'I-NP'), ('.', '.', 'O')],
+['O', 'O', 'O', 'O', 'O', 'I-ORG', 'O', 'O', 'I-MISC', 'I-ORG', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'I-LOC', 'I-LOC', 'I-LOC', 'O', 'O', 'O', 'I-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'],
+['O', 'O', 'O', 'O', 'O', 'I-ORG', 'O', 'O', 'I-MISC', 'I-MISC', 'O', 'O', 'O', 'I-MISC', 'I-MISC', 'O', 'O', 'I-PER', 'O', 'I-LOC', 'O', 'O', 'O', 'I-LOC', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']),
+
+([('"', '"', 'O'), ('I', 'PRP', 'I-NP'), ('am', 'VBP', 'I-VP'), ('sorry', 'JJ', 'I-ADJP'), ('to', 'TO', 'I-PP'), ('my', 'PRP$', 'I-NP'), ('ancestors', 'NNS', 'I-NP'), ('for', 'IN', 'I-PP'), ('five', 'CD', 'I-NP'), ('generations', 'NNS', 'I-NP'), (',', ',', 'O'), ('"', '"', 'O'), ('Chen', 'NNP', 'I-NP'), ('Chun-yeh', 'NNP', 'I-NP'), ('told', 'VBD', 'I-VP'), ('the', 'DT', 'I-NP'), ('High', 'NNP', 'I-NP'), ('Court', 'NNP', 'I-NP'), ('after', 'IN', 'I-PP'), ('sentencing', 'VBG', 'I-VP'), ('on', 'IN', 'I-PP'), ('Friday', 'NNP', 'I-NP'), (',', ',', 'O'), ('the', 'DT', 'I-NP'), ('Hong', 'NNP', 'I-NP'), ('Kong', 'NNP', 'I-NP'), ('Standard', 'NNP', 'I-NP'), ('said', 'VBD', 'I-VP'), ('.', '.', 'O'), ('"', '"', 'O')],
+['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O'],
+['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O', 'I-LOC', 'I-LOC', 'I-LOC', 'O', 'O', 'O']),
+
+([('The', 'DT', 'I-NP'), ('film', 'NN', 'I-NP'), (',', ',', 'O'), ('starring', 'VBG', 'I-VP'), ('Liam', 'NNP', 'I-NP'), ('Neeson', 'NNP', 'I-NP'), ('and', 'CC', 'O'), ('Julia', 'NNP', 'I-NP'), ('Roberts', 'NNP', 'I-NP'), (',', ',', 'O'), ('recounts', 'VBZ', 'I-VP'), ('the', 'DT', 'I-NP'), ('life', 'NN', 'I-NP'), ('of', 'IN', 'I-PP'), ('Michael', 'NNP', 'I-NP'), ('Collins', 'NNP', 'I-NP'), (',', ',', 'O'), ('the', 'DT', 'I-NP'), ('Irish', 'NNP', 'I-NP'), ('Republican', 'NNP', 'I-NP'), ('Army', 'NNP', 'I-NP'), ("'s", 'POS', 'B-NP'), ('Director', 'NNP', 'I-NP'), ('of', 'IN', 'I-PP'), ('Intelligence', 'NNP', 'I-NP'), ('who', 'WP', 'B-NP'), ('fought', 'VBD', 'I-VP'), ('for', 'IN', 'I-PP'), ('Irish', 'JJ', 'I-NP'), ('independence', 'NN', 'I-NP'), ('from', 'IN', 'I-PP'), ('1919', 'CD', 'I-NP'), ('to', 'TO', 'I-PP'), ('1921', 'CD', 'I-NP'), ('.', '.', 'O')],
+['O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-MISC', 'O', 'O', 'O', 'O', 'O', 'O'],
+['O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'O', 'I-MISC', 'I-MISC', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'I-MISC', 'O', 'O', 'O', 'O', 'O', 'O']),
+
+([('L.O.', 'NNP', 'I-NP'), (':', ':', 'O'), ('Bodman', 'NNP', 'I-NP'), (',', ',', 'O'), ('Longely', 'NNP', 'I-NP'), ('&', 'CC', 'I-NP'), ('Dahling', 'NNP', 'I-NP'), (',', ',', 'O'), ('Detroit', 'NNP', 'I-NP')],
+['O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'I-LOC'],
+['I-LOC', 'O', 'I-PER', 'O', 'I-LOC', 'O', 'I-LOC', 'O', 'I-LOC']),
+
+([('A', 'DT', 'I-NP'), ('powerful', 'JJ', 'I-NP'), ('right', 'NN', 'I-NP'), ('hook', 'NN', 'I-NP'), ('followed', 'VBN', 'I-VP'), ('by', 'IN', 'I-PP'), ('a', 'DT', 'I-NP'), ('straight', 'JJ', 'I-NP'), ('left', 'VBD', 'I-VP'), ('gave', 'VBN', 'I-VP'), ('defending', 'VBG', 'I-VP'), ('champion', 'NN', 'I-NP'), ('Nate', 'NNP', 'I-NP'), ('Miller', 'NNP', 'I-NP'), ('a', 'DT', 'B-NP'), ('seventh', 'JJ', 'I-NP'), ('round', 'JJ', 'I-NP'), ('knock-out', 'JJ', 'I-NP'), ('win', 'NN', 'I-NP'), ('over', 'IN', 'I-PP'), ('fellow', 'JJ', 'I-NP'), ('American', 'NNP', 'I-NP'), ('James', 'NNP', 'I-NP'), ('Heath', 'NNP', 'I-NP'), ('in', 'IN', 'I-PP'), ('their', 'PRP$', 'I-NP'), ('WBA', 'NNP', 'I-NP'), ('cruiserweight', 'NN', 'I-NP'), ('title', 'NN', 'I-NP'), ('bout', 'NN', 'I-NP'), ('on', 'IN', 'I-PP'), ('Saturday', 'NNP', 'I-NP'), ('.', '.', 'O')],
+['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-MISC', 'I-PER', 'I-PER', 'O', 'O', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O'],
+['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']),
+
+([('BOXING', 'VBG', 'I-VP'), ('-', ':', 'O'), ('PANAMA', 'NNP', 'I-NP'), ("'S", 'POS', 'B-NP'), ('ROBERTO', 'NNP', 'I-NP'), ('DURAN', 'NNP', 'I-NP'), ('FIGHTS', 'NNP', 'I-NP'), ('THE', 'NNP', 'I-NP'), ('SANDS', 'NNP', 'I-NP'), ('OF', 'IN', 'I-PP'), ('TIME', 'NN', 'I-NP'), ('.', '.', 'O')],
+['O', 'O', 'I-LOC', 'O', 'I-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'O'],
+['O', 'O', 'I-LOC', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O']),
+
+([('1714', 'CD', 'I-NP'), ('-', ':', 'I-NP'), ('The', 'DT', 'I-NP'), ('Treaty', 'NNP', 'I-NP'), ('of', 'IN', 'I-PP'), ('Baden', 'NNP', 'I-NP'), ('was', 'VBD', 'I-VP'), ('signed', 'VBN', 'I-VP'), ('between', 'IN', 'I-PP'), ('the', 'DT', 'I-NP'), ('Holy', 'NNP', 'I-NP'), ('Roman', 'NNP', 'I-NP'), ('Emperor', 'NNP', 'I-NP'), ('Charles', 'NNP', 'I-NP'), ('VI', 'NNP', 'I-NP'), ('and', 'CC', 'O'), ('France', 'NNP', 'I-NP'), (',', ',', 'O'), ('ending', 'VBG', 'I-VP'), ('War', 'NNP', 'I-NP'), ('of', 'IN', 'I-PP'), ('Spanish', 'NNP', 'I-NP'), ('Succession', 'NNP', 'I-NP'), ('.', '.', 'O')],
+['O', 'O', 'O', 'I-MISC', 'I-MISC', 'I-MISC', 'O', 'O', 'O', 'O', 'O', 'I-MISC', 'O', 'I-PER', 'I-PER', 'O', 'I-LOC', 'O', 'O', 'I-MISC', 'I-MISC', 'I-MISC', 'I-MISC', 'O'],
+['O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'I-PER', 'I-PER', 'I-PER', 'I-PER', 'I-ORG', 'O', 'I-LOC', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O'])]
+============= Structure Perceptron (Full Set) =============
+============= Structure Perceptron (Ablation) =============
+Read Documents and Featurize
+Training Structure Perceptron with iteration 75, and learning rate 1
+Predict the Dev Set
+Accuracy is 96.5003%, total tags are 7315, matched tags are 7059
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.3333%, total tags are 6255, matched tags are 5838
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 75, and learning rate 1
+Predict the Dev Set
+Accuracy is 95.6254%, total tags are 7315, matched tags are 6995
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 92.6139%, total tags are 6255, matched tags are 5793
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 75, and learning rate 1
+Predict the Dev Set
+Accuracy is 96.6644%, total tags are 7315, matched tags are 7071
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.7970%, total tags are 6255, matched tags are 5867
+Output the predict for Evaluation
+Training Structure Perceptron with iteration 75, and learning rate 1
+Predict the Dev Set
+Accuracy is 96.2133%, total tags are 7315, matched tags are 7038
+Output the predict for Evaluation
+Predict the Test Set
+Accuracy is 93.3973%, total tags are 6255, matched tags are 5842
+Output the predict for Evaluation
