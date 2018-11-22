@@ -69,11 +69,24 @@ if __name__=="__main__":
         utils.write_file(f'..\\output\\test.small.output{iteration}', test_data, predict)
 
     print(f'When training with {best_iteration} iteration, Dev Set have highest accuracy')
+    best_iteration = 75
 
     #####################################################################
 
-    # print('============= Structure Perceptron (Full Set) =============')
-    # best_iteration = 75
+    print('============= Structure Perceptron (Identify the Error) =============')
+    print(f'Training Structure Perceptron with iteration {best_iteration}, and learning rate 1')
+    sp.fit(train_data, iterations=best_iteration)
+
+    print('Predict the Dev Set')
+    predict = sp.predict(dev_data_x)
+    correct, total = utils.predict_eval(dev_data_y, predict)
+    print('Accuracy is %.4f%%, total tags are %d, matched tags are %d' % (correct / total * 100.0, total, correct))
+    print('Output the Error Sentence')
+    utils.output_error_sentense(dev_data_x, dev_data_y, predict)
+
+    #####################################################################
+
+    print('============= Structure Perceptron (Full Set) =============')
     # print('Read Documents and Featurize')
     # train_data = list(utils.load_file('..\\data\\eng.train'))
     # dev_data = list(utils.load_file('..\\data\\eng.dev'))

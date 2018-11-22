@@ -45,3 +45,7 @@ def predict_eval(expected_value, predict_value, output = False):
         correct += sum([1 for (expected, predict) in zip(tags, predict_value[i]) if expected == predict])
         total += len(tags)
     return (correct, total)
+
+def output_error_sentense(sentences, expected_value, predict_value):
+    most_error = sorted(zip(sentences, expected_value, predict_value), key=lambda data: len(data[1]) - sum([1 for (expected, predict) in zip(data[1], data[2]) if expected == predict]))
+    print(most_error[-10:])
