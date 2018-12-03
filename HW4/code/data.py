@@ -51,7 +51,7 @@ class SquadData(Data):
 
     def load(self, update=False):
         config = self.config
-        with open(config.squad_path, 'r') as fp:
+        with open(config.squad_path, 'r', encoding='utf8') as fp:
             self.squad = json.load(fp)
         self._prepro(self.squad)
         self._common = self._get_common(self.squad)
@@ -118,7 +118,7 @@ class SquadData(Data):
             common = self.train_data._common
             return common
         if os.path.exists(self.config.common_path):
-            with open(self.config.common_path, 'r') as fp:
+            with open(self.config.common_path, 'r', encoding='utf8') as fp:
                 print("Loading common info at {}".format(self.config.common_path))
                 common = json.load(fp)
                 return common
@@ -143,18 +143,18 @@ class SquadData(Data):
 
         common = {'word2idx': word2idx_dict, 'vocab_size': len(word2idx_dict)}
         print("Dumping common at {}".format(self.config.common_path))
-        with open(self.config.common_path, 'w') as fp:
+        with open(self.config.common_path, 'w', encoding='utf8') as fp:
             json.dump(common, fp)
 
         print("Dumping emb_metadata at {}".format(self.config.emb_metadata_path))
-        with open(self.config.emb_metadata_path, 'w') as fp:
+        with open(self.config.emb_metadata_path, 'w', encoding='utf8') as fp:
             writer = csv.writer(fp, delimiter='\t')
             writer.writerows([[word] for word in vocab_words])
         return common
 
     def _get_metadata(self, squad):
         if not self.config.fresh and os.path.exists(self.config.metadata_path):
-            with open(self.config.metadata_path, 'r') as fp:
+            with open(self.config.metadata_path, 'r', encoding='utf8') as fp:
                 print("Loading metadata info at {}".format(self.config.metadata_path))
                 metadata = json.load(fp)
                 return metadata
@@ -186,14 +186,14 @@ class SquadData(Data):
         emb_mat = [word2vec_dict[idx2word_dict[idx]] for idx in range(len(vocab))]
 
         metadata = {'emb_mat': emb_mat, 'word2idx': word2idx_dict}
-        with open(self.config.metadata_path, 'w') as fp:
+        with open(self.config.metadata_path, 'w', encoding='utf8') as fp:
             print("Dumping metadata at {}".format(self.config.metadata_path))
             json.dump(metadata, fp)
         return metadata
 
     def _get_data(self, squad, metadata):
         if not self.config.fresh and os.path.exists(self.config.data_path):
-            with open(self.config.data_path, 'r') as fp:
+            with open(self.config.data_path, 'r', encoding='utf8') as fp:
                 print("Loading data at {}".format(self.config.data_path))
                 data, shared = json.load(fp)
                 return data, shared
@@ -260,7 +260,7 @@ class SquadData(Data):
                 'ids': ids, 'idxs': idxs}
 
         print("Dumping data at {}".format(self.config.data_path))
-        with open(self.config.data_path, 'w') as fp:
+        with open(self.config.data_path, 'w', encoding='utf8') as fp:
             json.dump([data, shared], fp)
 
         return data, shared
@@ -376,7 +376,7 @@ def get_best_span(yp1, yp2, op=None):
 
 def get_word2vec(glove_path, num_words=400000, draft=False):
     word2vec_dict = {}
-    with open(glove_path, 'r') as fp:
+    with open(glove_path, 'r', encoding='utf8') as fp:
         for idx, line in tqdm(enumerate(fp), total=num_words, desc="get_word2vec"):
             tokens = line.strip().split(" ")
             word = tokens[0]

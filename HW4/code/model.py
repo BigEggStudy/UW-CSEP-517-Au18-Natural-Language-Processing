@@ -2,7 +2,6 @@ import tensorflow as tf
 from tensorflow.contrib.rnn import DropoutWrapper
 from tensorflow.contrib.rnn import GRUCell
 
-
 def cbow_forward(config, inputs, scope=None):
     with tf.variable_scope(scope or "forward"):
 
