@@ -1,6 +1,4 @@
 import tensorflow as tf
-from tensorflow.contrib.rnn import DropoutWrapper
-from tensorflow.contrib.rnn import GRUCell
 
 def cbow_forward(config, inputs, scope=None):
     with tf.variable_scope(scope or "forward"):
@@ -70,3 +68,29 @@ def bool_mask(val, mask, expand=False):
     if expand:
         mask = tf.expand_dims(mask, -1)
     return val * tf.cast(mask, 'float')
+
+def build_gru_cell(num_units, num_layers, batch_size, is_training, output_keep_prob):
+    def build_cell(num_units, is_training, output_keep_prob):
+        cell = tf.contrib.rnn.GRUCell(num_units, reuse=tf.AUTO_REUSE)
+        if is_training and output_keep_prob < 1:
+            cell = tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=0.9)
+        return cell
+
+    if num_layers > 1:
+        with tf.name_scope('multi_cells'):
+            cell = tf.nn.rnn_cell.MultiRNNCell([build_cell(num_units, is_training, output_keep_prob)] * num_layers)
+    else:
+        cell = build_cell(num_units, is_training, output_keep_prob)
+
+    init_state = cell.zero_state(batch_size, tf.float32)
+    return cell, init_state
+
+def rnn_gru(config, input, scope):
+    start_fw_cell, start_fw_state = build_gru_cell(config.hidden_size, 1, config.batch_size, config.is_train, config.keep_prob)
+    start_bw_cell, start_bw_state = build_gru_cell(config.hidden_size, 1, config.batch_size, config.is_train, config.keep_prob)
+    (outputs_fw, outputs_bw), _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=start_fw_cell,
+                                                                    cell_bw=start_bw_cell,
+                                                                    inputs=input,
+                                                                    dtype=tf.float32,
+                                                                    scope=scope)
+    return (outputs_fw + outputs_bw) / 2
