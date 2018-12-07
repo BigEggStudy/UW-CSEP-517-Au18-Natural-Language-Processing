@@ -78,7 +78,61 @@ def rnn_forward(config, inputs, scope=None):
         return variables, outputs
 
 def attention_forward(config, inputs, scope=None):
-    raise NotImplementedError()
+    with tf.variable_scope(scope or "forward"):
+        JX, JQ = config.max_context_size, config.max_ques_size
+        d = config.hidden_size
+        x, x_len, q, q_len = [inputs[key] for key in ['x', 'x_len', 'q', 'q_len']]
+        x_mask = tf.sequence_mask(x_len, JX)
+        q_mask = tf.sequence_mask(q_len, JQ)
+
+        emb_mat = config.emb_mat_ph if config.serve else config.emb_mat
+        emb_mat = tf.slice(emb_mat, [2, 0], [-1, -1])
+        emb_mat = tf.concat([tf.get_variable('emb_mat', shape=[2, d]), emb_mat], axis=0) # [V, d]
+        xx = tf.nn.embedding_lookup(emb_mat, x, name='xx')  # [N, JX, d]
+        qq = tf.nn.embedding_lookup(emb_mat, q, name='qq')  # [N, JQ, d]
+
+        # RNN
+        with tf.variable_scope('context_rnn'):
+            xx = rnn_gru(config, xx, 'context_rnn')  # [N, JX, d]
+        with tf.variable_scope('question_rnn'):
+            qq = rnn_gru(config, qq, 'question_rnn')  # [N, JQ, d]
+
+        # Equation 10
+        xx_exp = tf.expand_dims(xx, axis=2)  # [N, JX, 1, d]
+        xx_tiled = tf.tile(xx_exp, [1, 1, JQ, 1])  # [N, JX, JQ, d]
+        qq_exp = tf.expand_dims(qq, axis=1)  # [N, JX, 1, d]
+        qq_tiled = tf.tile(qq_exp, [1, JX, 1, 1])  # [N, JX, JQ, d]
+        xxqq = tf.concat([xx_tiled, qq_tiled, xx_tiled * qq_tiled], axis=2)  # [N, JX, JQ, 3d]
+
+        xxqq_reshape = tf.reshape(xxqq, [-1, 3 * d])  # [N * JX * JQ, 3d]
+        weight_p = tf.get_variable('weight_p', shape=[3 * d, 1])  # [3d, 1]
+        value = tf.matmul(xxqq_reshape, weight_p)  # [N * JX * JQ, 1]
+        value = tf.reshape(value, [None, JX, JQ])  # [N, JX, JQ]
+        p = tf.nn.softmax(value)  # [N, JX, JQ]
+
+        # Equation 9
+        p_exp = tf.expand_dims(p, axis=3)  # [N, JX, JQ, 1]
+        p_tiled = tf.tile(p_exp, [1, 1, 1, d])  # [N, JX, JQ, d]
+        value = p_tiled * qq_tiled  # [N, JX, JQ, d]
+        qq_hat = tf.reduce_sum(value, 2)  # [N, JX, d]
+
+        # Equation 2
+        xq = tf.concat([xx, qq_hat, xx * qq_hat], axis=2)  # [N, JX, 3d]
+        xq_flat = tf.reshape(xq, [-1, 3 * d])  # [N * JX, 3*d]
+
+        # Compute logits
+        with tf.variable_scope('start'):
+            logits1 = exp_mask(tf.reshape(tf.layers.dense(inputs=xq_flat, units=1), [-1, JX]), x_mask)  # [N, JX]
+            yp1 = tf.argmax(logits1, axis=1)  # [N]
+        with tf.variable_scope('stop'):
+            logits2 = exp_mask(tf.reshape(tf.layers.dense(inputs=xq_flat, units=1), [-1, JX]), x_mask)  # [N, JX]
+            yp2 = tf.argmax(logits2, axis=1)  # [N]
+
+        outputs = {'logits1': logits1, 'logits2': logits2, 'yp1': yp1, 'yp2': yp2}
+        variables = {'emb_mat': emb_mat}
+        return variables, outputs
+
+    # raise NotImplementedError()
 
 
 def get_loss(config, inputs, outputs, scope=None):
