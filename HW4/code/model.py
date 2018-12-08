@@ -107,7 +107,7 @@ def attention_forward(config, inputs, scope=None):
         xxqq_reshape = tf.reshape(xxqq, [-1, 3 * d])  # [N * JX * JQ, 3d]
         weight_p = tf.get_variable('weight_p', shape=[3 * d, 1])  # [3d, 1]
         value = tf.matmul(xxqq_reshape, weight_p)  # [N * JX * JQ, 1]
-        value = tf.reshape(value, [None, JX, JQ])  # [N, JX, JQ]
+        value = tf.reshape(value, [tf.shape(xxqq)[0], JX, JQ])  # [N, JX, JQ]
         p = tf.nn.softmax(value)  # [N, JX, JQ]
 
         # Equation 9
@@ -118,7 +118,7 @@ def attention_forward(config, inputs, scope=None):
 
         # Equation 2
         xq = tf.concat([xx, qq_hat, xx * qq_hat], axis=2)  # [N, JX, 3d]
-        xq_flat = tf.reshape(xq, [-1, 3 * d])  # [N * JX, 3*d]
+        xq_flat = tf.reshape(xq, [-1, 3*d])  # [N * JX, 3*d]
 
         # Compute logits
         with tf.variable_scope('start'):
