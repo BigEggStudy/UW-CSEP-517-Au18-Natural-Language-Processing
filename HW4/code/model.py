@@ -92,10 +92,11 @@ def attention_forward(config, inputs, scope=None):
         qq = tf.nn.embedding_lookup(emb_mat, q, name='qq')  # [N, JQ, d]
 
         # RNN
+        layer = 1
         with tf.variable_scope('context_rnn'):
-            xx = rnn_gru(config, xx, 'context_rnn')  # [N, JX, d]
+            xx = rnn_gru(config, xx, 'context_rnn', layer)  # [N, JX, d]
         with tf.variable_scope('question_rnn'):
-            qq = rnn_gru(config, qq, 'question_rnn')  # [N, JQ, d]
+            qq = rnn_gru(config, qq, 'question_rnn', layer)  # [N, JQ, d]
 
         # Equation 10
         xx_exp = tf.expand_dims(xx, axis=2)  # [N, JX, 1, d]
@@ -177,9 +178,9 @@ def build_gru_cell(num_units, num_layers, batch_size, is_training, output_keep_p
     init_state = cell.zero_state(batch_size, tf.float32)
     return cell, init_state
 
-def rnn_gru(config, input, scope):
-    start_fw_cell, start_fw_state = build_gru_cell(config.hidden_size, 1, config.batch_size, config.is_train, config.keep_prob)
-    start_bw_cell, start_bw_state = build_gru_cell(config.hidden_size, 1, config.batch_size, config.is_train, config.keep_prob)
+def rnn_gru(config, input, scope, layer = 1):
+    start_fw_cell, start_fw_state = build_gru_cell(config.hidden_size, layer, config.batch_size, config.is_train, config.keep_prob)
+    start_bw_cell, start_bw_state = build_gru_cell(config.hidden_size, layer, config.batch_size, config.is_train, config.keep_prob)
     (outputs_fw, outputs_bw), _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=start_fw_cell,
                                                                     cell_bw=start_bw_cell,
                                                                     inputs=input,
